@@ -46,7 +46,6 @@ function buildProductNode(doc, product) {
   const options = OPTIONS_BY_CATEGORY[product.category];
   const colorCodes = pickColors(product, options.colors);
   const sku = `FS-${String(product.id).padStart(3, "0")}`;
-  const imageExt = product.image.split(".").pop();
 
   const node = doc.createElement("product");
   node.setAttribute("id", product.id);
@@ -57,7 +56,8 @@ function buildProductNode(doc, product) {
   appendText(doc, node, "title", product.title);
   appendText(doc, node, "price", product.price);
   appendText(doc, node, "description", product.description);
-  appendText(doc, node, "image", `images/products/${product.id}.${imageExt}`);
+  // Ảnh gốc được nén thành WebP và lưu cùng website để trang tải nhanh.
+  appendText(doc, node, "image", `images/products/${product.id}.webp`);
   appendText(doc, node, "sourceImage", product.image);
 
   const apiRating = doc.createElement("apiRating");

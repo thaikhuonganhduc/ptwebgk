@@ -466,7 +466,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 /* Trang công cụ tạo XML */
 .tool-header { display: flex; align-items: center; gap: 16px; padding: 14px 24px; border-bottom: 1px solid var(--line); background: var(--surface); }
-.tool-main { display: grid; flex: 1; align-content: start; gap: 20px; width: 100%; max-width: 960px; margin: 0 auto; padding: 24px; }
+.tool-main { display: grid; grid-template-columns: minmax(0, 1fr); flex: 1; align-content: start; gap: 20px; width: 100%; max-width: 960px; margin: 0 auto; padding: 24px; }
 .tool-main h1 { margin-bottom: 8px; font-size: 24px; }
 .tool-main h2 { margin-bottom: 8px; font-size: 18px; }
 .tool-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 8px; }
