@@ -1,0 +1,14 @@
+[
+  { "id": "C01", "username": "khach1", "password": "Khach@123", "fullName": "Nguyễn Văn An", "phone": "0912000001", "email": "an.nguyen@example.com", "address": "12 Lê Lợi, Quận 1, TP. Hồ Chí Minh" },
+  { "id": "C02", "username": "khach2", "password": "Khach@123", "fullName": "Trần Thị Bình", "phone": "0987000002", "email": "binh.tran@example.com", "address": "45 Nguyễn Huệ, TP. Huế" },
+  { "id": "C03", "username": "khach3", "password": "Khach@123", "fullName": "Lê Hoàng Châu", "phone": "0356000003", "email": "chau.le@example.com", "address": "8 Trần Phú, Hải Châu, Đà Nẵng" },
+  { "id": "C04", "username": "khach4", "password": "Khach@123", "fullName": "Phạm Gia Duy", "phone": "0778000004", "email": "duy.pham@example.com", "address": "101 Kim Mã, Ba Đình, Hà Nội" },
+  { "id": "C05", "username": "khach5", "password": "Khach@123", "fullName": "Võ Ngọc Hân", "phone": "0833000005", "email": "han.vo@example.com", "address": "27 Hùng Vương, Ninh Kiều, Cần Thơ" },
+  { "id": "C06", "username": "khach6", "password": "Khach@123", "fullName": "Đặng Khánh Linh", "phone": "0909000006", "email": "linh.dang@example.com", "address": "66 Võ Văn Tần, Quận 3, TP. Hồ Chí Minh" },
+  { "id": "C07", "username": "khach7", "password": "Khach@123", "fullName": "Bùi Đức Minh", "phone": "0868000007", "email": "minh.bui@example.com", "address": "5 Phan Chu Trinh, Hoàn Kiếm, Hà Nội" },
+  { "id": "C08", "username": "khach8", "password": "Khach@123", "fullName": "Hoàng Thảo Nhi", "phone": "0522000008", "email": "nhi.hoang@example.com", "address": "19 Yersin, Nha Trang, Khánh Hòa" },
+  { "id": "C09", "username": "khach9", "password": "Khach@123", "fullName": "Đỗ Thanh Phong", "phone": "0935000009", "email": "phong.do@example.com", "address": "230 Quang Trung, Gò Vấp, TP. Hồ Chí Minh" },
+  { "id": "C10", "username": "khach10", "password": "Khach@123", "fullName": "Ngô Mai Quỳnh", "phone": "0702000010", "email": "quynh.ngo@example.com", "address": "14 Lạch Tray, Ngô Quyền, Hải Phòng" },
+  { "id": "C11", "username": "khach11", "password": "Khach@123", "fullName": "Dương Tuấn Sơn", "phone": "0978000011", "email": "son.duong@example.com", "address": "77 Nguyễn Văn Cừ, TP. Vinh, Nghệ An" },
+  { "id": "C12", "username": "khach12", "password": "Khach@123", "fullName": "Lý Thu Trang", "phone": "0389000012", "email": "trang.ly@example.com", "address": "3 Hai Bà Trưng, Đà Lạt, Lâm Đồng" }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "E01",
+    "username": "admin",
+    "password": "Admin@123",
+    "fullName": "Thái Khương Anh Đức",
+    "role": "admin",
+    "email": "admin@ducmart.example",
+    "phone": "0900000001",
+    "active": true
+  },
+  {
+    "id": "E02",
+    "username": "nhanvien1",
+    "password": "Nhanvien@123",
+    "fullName": "Trần Minh Anh",
+    "role": "staff",
+    "email": "minhanh@ducmart.example",
+    "phone": "0900000002",
+    "active": true
+  },
+  {
+    "id": "E03",
+    "username": "nhanvien2",
+    "password": "Nhanvien@123",
+    "fullName": "Lê Quốc Bảo",
+    "role": "staff",
+    "email": "quocbao@ducmart.example",
+    "phone": "0900000003",
+    "active": true
+  },
+  {
+    "id": "E04",
+    "username": "nhanvien3",
+    "password": "Nhanvien@123",
+    "fullName": "Phạm Thu Hà",
+    "role": "staff",
+    "email": "thuha@ducmart.example",
+    "phone": "0900000004",
+    "active": false
+  }
+]

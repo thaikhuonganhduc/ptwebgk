@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products source="https://fakestoreapi.com/products" currency="USD" total="20">
+  <product id="1" sku="FS-001" category="men's clothing" status="active">
+    <title>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</title>
+    <price>109.95</price>
+    <description>Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</description>
+    <image>images/products/1.png</image>
+    <sourceImage>https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png</sourceImage>
+    <apiRating rate="3.9" count="120"/>
+    <colors>
+      <color code="navy" name="Xanh navy" hex="#1f3a5f"/>
+      <color code="gray" name="Xám" hex="#8a8f98"/>
+      <color code="khaki" name="Be" hex="#b9a27c"/>
+    </colors>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-001-navy-0" color="navy" size="S" stock="10"/>
+      <variant sku="FS-001-navy-1" color="navy" size="M" stock="15"/>
+      <variant sku="FS-001-navy-2" color="navy" size="L" stock="20"/>
+      <variant sku="FS-001-navy-3" color="navy" size="XL" stock="0"/>
+      <variant sku="FS-001-gray-0" color="gray" size="S" stock="23"/>
+      <variant sku="FS-001-gray-1" color="gray" size="M" stock="28"/>
+      <variant sku="FS-001-gray-2" color="gray" size="L" stock="33"/>
+      <variant sku="FS-001-gray-3" color="gray" size="XL" stock="38"/>
+      <variant sku="FS-001-khaki-0" color="khaki" size="S" stock="0"/>
+      <variant sku="FS-001-khaki-1" color="khaki" size="M" stock="3"/>
+      <variant sku="FS-001-khaki-2" color="khaki" size="L" stock="8"/>
+      <variant sku="FS-001-khaki-3" color="khaki" size="XL" stock="13"/>
+    </variants>
+    <stock>191</stock>
+  </product>
+  <product id="2" sku="FS-002" category="men's clothing" status="active">
+    <title>Mens Casual Premium Slim Fit T-Shirts </title>
+    <price>22.3</price>
+    <description>Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight &amp; soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.</description>
+    <image>images/products/2.png</image>
+    <sourceImage>https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png</sourceImage>
+    <apiRating rate="4.1" count="259"/>
+    <colors>
+      <color code="gray" name="Xám" hex="#8a8f98"/>
+      <color code="khaki" name="Be" hex="#b9a27c"/>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+      <color code="navy" name="Xanh navy" hex="#1f3a5f"/>
+    </colors>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-002-gray-0" color="gray" size="S" stock="17"/>
+      <variant sku="FS-002-gray-1" color="gray" size="M" stock="22"/>
+      <variant sku="FS-002-gray-2" color="gray" size="L" stock="27"/>
+      <variant sku="FS-002-gray-3" color="gray" size="XL" stock="32"/>
+      <variant sku="FS-002-khaki-0" color="khaki" size="S" stock="30"/>
+      <variant sku="FS-002-khaki-1" color="khaki" size="M" stock="35"/>
+      <variant sku="FS-002-khaki-2" color="khaki" size="L" stock="40"/>
+      <variant sku="FS-002-khaki-3" color="khaki" size="XL" stock="7"/>
+      <variant sku="FS-002-black-0" color="black" size="S" stock="5"/>
+      <variant sku="FS-002-black-1" color="black" size="M" stock="10"/>
+      <variant sku="FS-002-black-2" color="black" size="L" stock="15"/>
+      <variant sku="FS-002-black-3" color="black" size="XL" stock="0"/>
+      <variant sku="FS-002-navy-0" color="navy" size="S" stock="18"/>
+      <variant sku="FS-002-navy-1" color="navy" size="M" stock="23"/>
+      <variant sku="FS-002-navy-2" color="navy" size="L" stock="28"/>
+      <variant sku="FS-002-navy-3" color="navy" size="XL" stock="33"/>
+    </variants>
+    <stock>342</stock>
+  </product>
+  <product id="3" sku="FS-003" category="men's clothing" status="active">
+    <title>Mens Cotton Jacket</title>
+    <price>55.99</price>
+    <description>great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.</description>
+    <image>images/products/3.png</image>
+    <sourceImage>https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png</sourceImage>
+    <apiRating rate="4.7" count="500"/>
+    <colors>
+      <color code="khaki" name="Be" hex="#b9a27c"/>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+    </colors>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-003-khaki-0" color="khaki" size="S" stock="24"/>
+      <variant sku="FS-003-khaki-1" color="khaki" size="M" stock="29"/>
+      <variant sku="FS-003-khaki-2" color="khaki" size="L" stock="34"/>
+      <variant sku="FS-003-khaki-3" color="khaki" size="XL" stock="39"/>
+      <variant sku="FS-003-black-0" color="black" size="S" stock="37"/>
+      <variant sku="FS-003-black-1" color="black" size="M" stock="4"/>
+      <variant sku="FS-003-black-2" color="black" size="L" stock="0"/>
+      <variant sku="FS-003-black-3" color="black" size="XL" stock="14"/>
+    </variants>
+    <stock>181</stock>
+  </product>
+  <product id="4" sku="FS-004" category="men's clothing" status="active">
+    <title>Mens Casual Slim Fit</title>
+    <price>15.99</price>
+    <description>The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.</description>
+    <image>images/products/4.png</image>
+    <sourceImage>https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png</sourceImage>
+    <apiRating rate="2.1" count="430"/>
+    <colors>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+      <color code="navy" name="Xanh navy" hex="#1f3a5f"/>
+      <color code="gray" name="Xám" hex="#8a8f98"/>
+    </colors>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-004-black-0" color="black" size="S" stock="31"/>
+      <variant sku="FS-004-black-1" color="black" size="M" stock="0"/>
+      <variant sku="FS-004-black-2" color="black" size="L" stock="3"/>
+      <variant sku="FS-004-black-3" color="black" size="XL" stock="8"/>
+      <variant sku="FS-004-navy-0" color="navy" size="S" stock="6"/>
+      <variant sku="FS-004-navy-1" color="navy" size="M" stock="11"/>
+      <variant sku="FS-004-navy-2" color="navy" size="L" stock="16"/>
+      <variant sku="FS-004-navy-3" color="navy" size="XL" stock="21"/>
+      <variant sku="FS-004-gray-0" color="gray" size="S" stock="19"/>
+      <variant sku="FS-004-gray-1" color="gray" size="M" stock="24"/>
+      <variant sku="FS-004-gray-2" color="gray" size="L" stock="29"/>
+      <variant sku="FS-004-gray-3" color="gray" size="XL" stock="34"/>
+    </variants>
+    <stock>202</stock>
+  </product>
+  <product id="5" sku="FS-005" category="jewelery" status="active">
+    <title>John Hardy Women's Legends Naga Gold &amp; Silver Dragon Station Chain Bracelet</title>
+    <price>695</price>
+    <description>From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.</description>
+    <image>images/products/5.png</image>
+    <sourceImage>https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png</sourceImage>
+    <apiRating rate="4.6" count="400"/>
+    <colors>
+      <color code="rose" name="Vàng hồng" hex="#c98a7a"/>
+      <color code="gold" name="Vàng" hex="#d4af37"/>
+      <color code="silver" name="Bạc" hex="#c0c4cc"/>
+    </colors>
+    <sizes>
+      <size>Free size</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-005-rose-0" color="rose" size="Free size" stock="38"/>
+      <variant sku="FS-005-gold-0" color="gold" size="Free size" stock="13"/>
+      <variant sku="FS-005-silver-0" color="silver" size="Free size" stock="26"/>
+    </variants>
+    <stock>77</stock>
+  </product>
+  <product id="6" sku="FS-006" category="jewelery" status="active">
+    <title>Solid Gold Petite Micropave </title>
+    <price>168</price>
+    <description>Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.</description>
+    <image>images/products/6.png</image>
+    <sourceImage>https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png</sourceImage>
+    <apiRating rate="3.9" count="70"/>
+    <colors>
+      <color code="gold" name="Vàng" hex="#d4af37"/>
+      <color code="silver" name="Bạc" hex="#c0c4cc"/>
+    </colors>
+    <sizes>
+      <size>Free size</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-006-gold-0" color="gold" size="Free size" stock="7"/>
+      <variant sku="FS-006-silver-0" color="silver" size="Free size" stock="0"/>
+    </variants>
+    <stock>7</stock>
+  </product>
+  <product id="7" sku="FS-007" category="jewelery" status="active">
+    <title>White Gold Plated Princess</title>
+    <price>9.99</price>
+    <description>Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...</description>
+    <image>images/products/7.png</image>
+    <sourceImage>https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png</sourceImage>
+    <apiRating rate="3" count="400"/>
+    <colors>
+      <color code="silver" name="Bạc" hex="#c0c4cc"/>
+      <color code="rose" name="Vàng hồng" hex="#c98a7a"/>
+      <color code="gold" name="Vàng" hex="#d4af37"/>
+    </colors>
+    <sizes>
+      <size>Free size</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-007-silver-0" color="silver" size="Free size" stock="14"/>
+      <variant sku="FS-007-rose-0" color="rose" size="Free size" stock="27"/>
+      <variant sku="FS-007-gold-0" color="gold" size="Free size" stock="40"/>
+    </variants>
+    <stock>81</stock>
+  </product>
+  <product id="8" sku="FS-008" category="jewelery" status="active">
+    <title>Pierced Owl Rose Gold Plated Stainless Steel Double</title>
+    <price>10.99</price>
+    <description>Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel</description>
+    <image>images/products/8.png</image>
+    <sourceImage>https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png</sourceImage>
+    <apiRating rate="1.9" count="100"/>
+    <colors>
+      <color code="rose" name="Vàng hồng" hex="#c98a7a"/>
+      <color code="gold" name="Vàng" hex="#d4af37"/>
+    </colors>
+    <sizes>
+      <size>Free size</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-008-rose-0" color="rose" size="Free size" stock="21"/>
+      <variant sku="FS-008-gold-0" color="gold" size="Free size" stock="34"/>
+    </variants>
+    <stock>55</stock>
+  </product>
+  <product id="9" sku="FS-009" category="electronics" status="active">
+    <title>WD 2TB Elements Portable External Hard Drive - USB 3.0 </title>
+    <price>64</price>
+    <description>USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system</description>
+    <image>images/products/9.png</image>
+    <sourceImage>https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png</sourceImage>
+    <apiRating rate="3.3" count="203"/>
+    <colors>
+      <color code="silver" name="Bạc" hex="#c0c4cc"/>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+    </colors>
+    <sizes>
+      <size>Tiêu chuẩn</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-009-silver-0" color="silver" size="Tiêu chuẩn" stock="28"/>
+      <variant sku="FS-009-black-0" color="black" size="Tiêu chuẩn" stock="3"/>
+    </variants>
+    <stock>31</stock>
+  </product>
+  <product id="10" sku="FS-010" category="electronics" status="active">
+    <title>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</title>
+    <price>109</price>
+    <description>Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)</description>
+    <image>images/products/10.png</image>
+    <sourceImage>https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png</sourceImage>
+    <apiRating rate="2.9" count="470"/>
+    <colors>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+      <color code="silver" name="Bạc" hex="#c0c4cc"/>
+    </colors>
+    <sizes>
+      <size>Tiêu chuẩn</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-010-black-0" color="black" size="Tiêu chuẩn" stock="35"/>
+      <variant sku="FS-010-silver-0" color="silver" size="Tiêu chuẩn" stock="10"/>
+    </variants>
+    <stock>45</stock>
+  </product>
+  <product id="11" sku="FS-011" category="electronics" status="active">
+    <title>Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</title>
+    <price>109</price>
+    <description>3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking &amp; Correction) to provide the optimized performance and enhanced reliability.</description>
+    <image>images/products/11.png</image>
+    <sourceImage>https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png</sourceImage>
+    <apiRating rate="4.8" count="319"/>
+    <colors>
+      <color code="silver" name="Bạc" hex="#c0c4cc"/>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+    </colors>
+    <sizes>
+      <size>Tiêu chuẩn</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-011-silver-0" color="silver" size="Tiêu chuẩn" stock="0"/>
+      <variant sku="FS-011-black-0" color="black" size="Tiêu chuẩn" stock="17"/>
+    </variants>
+    <stock>17</stock>
+  </product>
+  <product id="12" sku="FS-012" category="electronics" status="active">
+    <title>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</title>
+    <price>114</price>
+    <description>Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty</description>
+    <image>images/products/12.png</image>
+    <sourceImage>https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png</sourceImage>
+    <apiRating rate="4.8" count="400"/>
+    <colors>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+      <color code="silver" name="Bạc" hex="#c0c4cc"/>
+    </colors>
+    <sizes>
+      <size>Tiêu chuẩn</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-012-black-0" color="black" size="Tiêu chuẩn" stock="11"/>
+      <variant sku="FS-012-silver-0" color="silver" size="Tiêu chuẩn" stock="24"/>
+    </variants>
+    <stock>35</stock>
+  </product>
+  <product id="13" sku="FS-013" category="electronics" status="active">
+    <title>Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin</title>
+    <price>599</price>
+    <description>21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz</description>
+    <image>images/products/13.png</image>
+    <sourceImage>https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png</sourceImage>
+    <apiRating rate="2.9" count="250"/>
+    <colors>
+      <color code="silver" name="Bạc" hex="#c0c4cc"/>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+    </colors>
+    <sizes>
+      <size>Tiêu chuẩn</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-013-silver-0" color="silver" size="Tiêu chuẩn" stock="18"/>
+      <variant sku="FS-013-black-0" color="black" size="Tiêu chuẩn" stock="31"/>
+    </variants>
+    <stock>49</stock>
+  </product>
+  <product id="14" sku="FS-014" category="electronics" status="active">
+    <title>Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED </title>
+    <price>999.99</price>
+    <description>49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag</description>
+    <image>images/products/14.png</image>
+    <sourceImage>https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png</sourceImage>
+    <apiRating rate="2.2" count="140"/>
+    <colors>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+      <color code="silver" name="Bạc" hex="#c0c4cc"/>
+    </colors>
+    <sizes>
+      <size>Tiêu chuẩn</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-014-black-0" color="black" size="Tiêu chuẩn" stock="25"/>
+      <variant sku="FS-014-silver-0" color="silver" size="Tiêu chuẩn" stock="38"/>
+    </variants>
+    <stock>63</stock>
+  </product>
+  <product id="15" sku="FS-015" category="women's clothing" status="active">
+    <title>BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</title>
+    <price>56.99</price>
+    <description>Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates</description>
+    <image>images/products/15.png</image>
+    <sourceImage>https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png</sourceImage>
+    <apiRating rate="2.6" count="235"/>
+    <colors>
+      <color code="pink" name="Hồng" hex="#e58fa8"/>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+    </colors>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-015-pink-0" color="pink" size="S" stock="32"/>
+      <variant sku="FS-015-pink-1" color="pink" size="M" stock="0"/>
+      <variant sku="FS-015-pink-2" color="pink" size="L" stock="4"/>
+      <variant sku="FS-015-pink-3" color="pink" size="XL" stock="9"/>
+      <variant sku="FS-015-black-0" color="black" size="S" stock="7"/>
+      <variant sku="FS-015-black-1" color="black" size="M" stock="12"/>
+      <variant sku="FS-015-black-2" color="black" size="L" stock="17"/>
+      <variant sku="FS-015-black-3" color="black" size="XL" stock="22"/>
+    </variants>
+    <stock>103</stock>
+  </product>
+  <product id="16" sku="FS-016" category="women's clothing" status="active">
+    <title>Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket</title>
+    <price>29.95</price>
+    <description>100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON</description>
+    <image>images/products/16.png</image>
+    <sourceImage>https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png</sourceImage>
+    <apiRating rate="2.9" count="340"/>
+    <colors>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+      <color code="white" name="Trắng" hex="#f5f5f5"/>
+      <color code="red" name="Đỏ" hex="#c0392b"/>
+    </colors>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-016-black-0" color="black" size="S" stock="39"/>
+      <variant sku="FS-016-black-1" color="black" size="M" stock="6"/>
+      <variant sku="FS-016-black-2" color="black" size="L" stock="11"/>
+      <variant sku="FS-016-black-3" color="black" size="XL" stock="16"/>
+      <variant sku="FS-016-white-0" color="white" size="S" stock="14"/>
+      <variant sku="FS-016-white-1" color="white" size="M" stock="19"/>
+      <variant sku="FS-016-white-2" color="white" size="L" stock="24"/>
+      <variant sku="FS-016-white-3" color="white" size="XL" stock="29"/>
+      <variant sku="FS-016-red-0" color="red" size="S" stock="27"/>
+      <variant sku="FS-016-red-1" color="red" size="M" stock="0"/>
+      <variant sku="FS-016-red-2" color="red" size="L" stock="37"/>
+      <variant sku="FS-016-red-3" color="red" size="XL" stock="4"/>
+    </variants>
+    <stock>226</stock>
+  </product>
+  <product id="17" sku="FS-017" category="women's clothing" status="active">
+    <title>Rain Jacket Women Windbreaker Striped Climbing Raincoats</title>
+    <price>39.99</price>
+    <description>Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.</description>
+    <image>images/products/17.png</image>
+    <sourceImage>https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png</sourceImage>
+    <apiRating rate="3.8" count="679"/>
+    <colors>
+      <color code="white" name="Trắng" hex="#f5f5f5"/>
+      <color code="red" name="Đỏ" hex="#c0392b"/>
+      <color code="pink" name="Hồng" hex="#e58fa8"/>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+    </colors>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-017-white-0" color="white" size="S" stock="8"/>
+      <variant sku="FS-017-white-1" color="white" size="M" stock="13"/>
+      <variant sku="FS-017-white-2" color="white" size="L" stock="18"/>
+      <variant sku="FS-017-white-3" color="white" size="XL" stock="23"/>
+      <variant sku="FS-017-red-0" color="red" size="S" stock="0"/>
+      <variant sku="FS-017-red-1" color="red" size="M" stock="26"/>
+      <variant sku="FS-017-red-2" color="red" size="L" stock="31"/>
+      <variant sku="FS-017-red-3" color="red" size="XL" stock="36"/>
+      <variant sku="FS-017-pink-0" color="pink" size="S" stock="34"/>
+      <variant sku="FS-017-pink-1" color="pink" size="M" stock="39"/>
+      <variant sku="FS-017-pink-2" color="pink" size="L" stock="6"/>
+      <variant sku="FS-017-pink-3" color="pink" size="XL" stock="11"/>
+      <variant sku="FS-017-black-0" color="black" size="S" stock="9"/>
+      <variant sku="FS-017-black-1" color="black" size="M" stock="14"/>
+      <variant sku="FS-017-black-2" color="black" size="L" stock="19"/>
+      <variant sku="FS-017-black-3" color="black" size="XL" stock="24"/>
+    </variants>
+    <stock>311</stock>
+  </product>
+  <product id="18" sku="FS-018" category="women's clothing" status="active">
+    <title>MBJ Women's Solid Short Sleeve Boat Neck V </title>
+    <price>9.85</price>
+    <description>95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem</description>
+    <image>images/products/18.png</image>
+    <sourceImage>https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png</sourceImage>
+    <apiRating rate="4.7" count="130"/>
+    <colors>
+      <color code="red" name="Đỏ" hex="#c0392b"/>
+      <color code="pink" name="Hồng" hex="#e58fa8"/>
+    </colors>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-018-red-0" color="red" size="S" stock="15"/>
+      <variant sku="FS-018-red-1" color="red" size="M" stock="20"/>
+      <variant sku="FS-018-red-2" color="red" size="L" stock="25"/>
+      <variant sku="FS-018-red-3" color="red" size="XL" stock="30"/>
+      <variant sku="FS-018-pink-0" color="pink" size="S" stock="28"/>
+      <variant sku="FS-018-pink-1" color="pink" size="M" stock="33"/>
+      <variant sku="FS-018-pink-2" color="pink" size="L" stock="38"/>
+      <variant sku="FS-018-pink-3" color="pink" size="XL" stock="0"/>
+    </variants>
+    <stock>189</stock>
+  </product>
+  <product id="19" sku="FS-019" category="women's clothing" status="active">
+    <title>Opna Women's Short Sleeve Moisture</title>
+    <price>7.95</price>
+    <description>100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash &amp; Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort</description>
+    <image>images/products/19.png</image>
+    <sourceImage>https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png</sourceImage>
+    <apiRating rate="4.5" count="146"/>
+    <colors>
+      <color code="pink" name="Hồng" hex="#e58fa8"/>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+      <color code="white" name="Trắng" hex="#f5f5f5"/>
+    </colors>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-019-pink-0" color="pink" size="S" stock="22"/>
+      <variant sku="FS-019-pink-1" color="pink" size="M" stock="27"/>
+      <variant sku="FS-019-pink-2" color="pink" size="L" stock="0"/>
+      <variant sku="FS-019-pink-3" color="pink" size="XL" stock="37"/>
+      <variant sku="FS-019-black-0" color="black" size="S" stock="35"/>
+      <variant sku="FS-019-black-1" color="black" size="M" stock="40"/>
+      <variant sku="FS-019-black-2" color="black" size="L" stock="7"/>
+      <variant sku="FS-019-black-3" color="black" size="XL" stock="12"/>
+      <variant sku="FS-019-white-0" color="white" size="S" stock="10"/>
+      <variant sku="FS-019-white-1" color="white" size="M" stock="15"/>
+      <variant sku="FS-019-white-2" color="white" size="L" stock="20"/>
+      <variant sku="FS-019-white-3" color="white" size="XL" stock="25"/>
+    </variants>
+    <stock>250</stock>
+  </product>
+  <product id="20" sku="FS-020" category="women's clothing" status="active">
+    <title>DANVOUY Womens T Shirt Casual Cotton Short</title>
+    <price>12.99</price>
+    <description>95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.</description>
+    <image>images/products/20.png</image>
+    <sourceImage>https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png</sourceImage>
+    <apiRating rate="3.6" count="145"/>
+    <colors>
+      <color code="black" name="Đen" hex="#1f1f1f"/>
+      <color code="white" name="Trắng" hex="#f5f5f5"/>
+      <color code="red" name="Đỏ" hex="#c0392b"/>
+      <color code="pink" name="Hồng" hex="#e58fa8"/>
+    </colors>
+    <sizes>
+      <size>S</size>
+      <size>M</size>
+      <size>L</size>
+      <size>XL</size>
+    </sizes>
+    <variants>
+      <variant sku="FS-020-black-0" color="black" size="S" stock="29"/>
+      <variant sku="FS-020-black-1" color="black" size="M" stock="34"/>
+      <variant sku="FS-020-black-2" color="black" size="L" stock="39"/>
+      <variant sku="FS-020-black-3" color="black" size="XL" stock="6"/>
+      <variant sku="FS-020-white-0" color="white" size="S" stock="4"/>
+      <variant sku="FS-020-white-1" color="white" size="M" stock="9"/>
+      <variant sku="FS-020-white-2" color="white" size="L" stock="14"/>
+      <variant sku="FS-020-white-3" color="white" size="XL" stock="19"/>
+      <variant sku="FS-020-red-0" color="red" size="S" stock="17"/>
+      <variant sku="FS-020-red-1" color="red" size="M" stock="22"/>
+      <variant sku="FS-020-red-2" color="red" size="L" stock="0"/>
+      <variant sku="FS-020-red-3" color="red" size="XL" stock="32"/>
+      <variant sku="FS-020-pink-0" color="pink" size="S" stock="30"/>
+      <variant sku="FS-020-pink-1" color="pink" size="M" stock="35"/>
+      <variant sku="FS-020-pink-2" color="pink" size="L" stock="40"/>
+      <variant sku="FS-020-pink-3" color="pink" size="XL" stock="7"/>
+    </variants>
+    <stock>337</stock>
+  </product>
+</products>

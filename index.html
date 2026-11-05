@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Đức Mart | Cửa hàng trực tuyến</title>
+  <meta name="description" content="Website bán hàng giả lập, bài kiểm tra giữa kỳ học phần Phát triển web kinh doanh.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Đức Mart</a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Danh mục chính">
+        <a href="#products" class="is-active" data-category="all">Tất cả</a>
+        <a href="#products" data-category="men's clothing">Men's clothing</a>
+        <a href="#products" data-category="women's clothing">Women's clothing</a>
+        <a href="#products" data-category="jewelery">Jewelery</a>
+        <a href="#products" data-category="electronics">Electronics</a>
+        <a href="admin.html">Quản trị</a>
+      </nav>
+
+      <div class="header-tools">
+        <div class="account" id="accountBox">
+          <button type="button" class="btn btn-ghost" id="loginOpenBtn">Đăng nhập</button>
+        </div>
+        <div class="cart-wrap" id="cartWrap">
+          <button type="button" class="btn btn-primary cart-toggle" id="cartToggle" aria-expanded="false" aria-controls="miniCart">
+            Giỏ hàng <span class="cart-count" id="cartCount">0</span>
+          </button>
+          <!-- Câu 6: Mini-cart dùng position: absolute và z-index để hiển thị đè lên màn hình -->
+          <div class="mini-cart" id="miniCart" hidden></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="shop-layout">
+    <!-- Câu 2: form tìm kiếm nâng cao đặt trong thẻ aside -->
+    <aside class="filter-panel" aria-labelledby="filterTitle">
+      <button type="button" class="btn filter-toggle" id="filterToggle" aria-expanded="false" aria-controls="searchForm">Bộ lọc tìm kiếm</button>
+      <form id="searchForm" class="search-form">
+        <h2 id="filterTitle">Tìm kiếm nâng cao</h2>
+
+        <div class="field">
+          <label for="keyword">Từ khóa</label>
+          <input type="search" id="keyword" name="keyword" placeholder="Ví dụ: jacket" minlength="2" maxlength="50"
+            pattern="[A-Za-z0-9À-ỹ\s'&amp;.,\-]+" title="Từ 2 đến 50 ký tự, gồm chữ, số và dấu ' &amp; . , -" autocomplete="off">
+        </div>
+
+        <div class="field">
+          <label for="category">Danh mục</label>
+          <select id="category" name="category" required>
+            <option value="all">Tất cả danh mục</option>
+            <option value="men's clothing">Men's clothing</option>
+            <option value="women's clothing">Women's clothing</option>
+            <option value="jewelery">Jewelery</option>
+            <option value="electronics">Electronics</option>
+          </select>
+        </div>
+
+        <fieldset class="field">
+          <legend>Khoảng giá (USD)</legend>
+          <div class="price-range">
+            <div>
+              <label for="priceMin">Từ</label>
+              <input type="number" id="priceMin" name="priceMin" value="0" min="0" max="1000" step="0.01" required>
+            </div>
+            <div>
+              <label for="priceMax">Đến</label>
+              <input type="number" id="priceMax" name="priceMax" value="1000" min="0" max="1000" step="0.01" required>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend>Màu sắc</legend>
+          <div class="color-options" id="colorOptions">
+            <label class="color-option"><input type="radio" name="color" value="all" required checked><span>Tất cả</span></label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="minRating">Đánh giá từ: <output id="minRatingOutput" for="minRating">0</output> ★</label>
+          <input type="range" id="minRating" name="minRating" min="0" max="5" step="0.5" value="0" required>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+          <button type="reset" class="btn">Xóa lọc</button>
+        </div>
+      </form>
+    </aside>
+
+    <section class="products-section" id="products" aria-labelledby="productsTitle">
+      <div class="products-toolbar">
+        <div>
+          <h1 id="productsTitle">Danh sách sản phẩm</h1>
+          <p class="result-count" id="resultCount" role="status">Đang tải sản phẩm...</p>
+        </div>
+        <div class="sort-box">
+          <label for="sortSelect">Sắp xếp</label>
+          <select id="sortSelect">
+            <option value="default">Mặc định</option>
+            <option value="price-asc">Giá tăng dần</option>
+            <option value="price-desc">Giá giảm dần</option>
+            <option value="rating-desc">Đánh giá cao nhất</option>
+          </select>
+        </div>
+      </div>
+      <!-- Câu 4: chỉ gắn một Event Listener duy nhất trên phần tử này -->
+      <div class="product-grid" id="productGrid" aria-busy="true"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Sinh viên thực hiện: <strong>Thái Khương Anh Đức</strong> · MSSV: <strong>K234161828</strong></p>
+    <p class="footer-note">Bài kiểm tra giữa kỳ, học phần Phát triển web kinh doanh. Website bán hàng giả lập, không có giao dịch thật.</p>
+  </footer>
+
+  <dialog class="modal" id="quickViewDialog" aria-labelledby="quickViewTitle"></dialog>
+  <dialog class="modal" id="ratingDialog" aria-labelledby="ratingTitle"></dialog>
+
+  <dialog class="modal modal-sm" id="loginDialog" aria-labelledby="loginTitle">
+    <form id="customerLoginForm" class="stack-form" novalidate>
+      <div class="modal-head">
+        <h2 id="loginTitle">Đăng nhập khách hàng</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Đóng">×</button>
+      </div>
+      <p class="hint">Đăng nhập để tự điền thông tin giao hàng. Tài khoản mẫu: <code>khach1</code> / <code>Khach@123</code></p>
+      <div class="field">
+        <label for="custUsername">Tên đăng nhập</label>
+        <input type="text" id="custUsername" name="username" autocomplete="username">
+      </div>
+      <div class="field">
+        <label for="custPassword">Mật khẩu</label>
+        <input type="password" id="custPassword" name="password" autocomplete="current-password">
+      </div>
+      <p class="form-error" id="custLoginError" role="alert"></p>
+      <button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>
+    </form>
+  </dialog>
+
+  <dialog class="modal" id="checkoutDialog" aria-labelledby="checkoutTitle">
+    <div id="checkoutFormView">
+      <div class="modal-head">
+        <h2 id="checkoutTitle">Thanh toán đơn hàng</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Đóng">×</button>
+      </div>
+      <div class="checkout-layout">
+        <!-- Câu 7: tắt validation mặc định để dùng Regex tự định nghĩa -->
+        <form id="checkoutForm" class="stack-form" novalidate>
+          <div class="field">
+            <label for="shipName">Họ và tên người nhận</label>
+            <input type="text" id="shipName" name="fullName" autocomplete="name" aria-describedby="shipNameMsg">
+            <small class="field-msg" id="shipNameMsg"></small>
+          </div>
+          <div class="field">
+            <label for="shipPhone">Số điện thoại</label>
+            <input type="tel" id="shipPhone" name="phone" placeholder="0912345678" autocomplete="tel" aria-describedby="shipPhoneMsg">
+            <small class="field-msg" id="shipPhoneMsg"></small>
+          </div>
+          <div class="field">
+            <label for="shipEmail">Email</label>
+            <input type="email" id="shipEmail" name="email" placeholder="ban@example.com" autocomplete="email" aria-describedby="shipEmailMsg">
+            <small class="field-msg" id="shipEmailMsg"></small>
+          </div>
+          <div class="field">
+            <label for="shipAddress">Địa chỉ giao hàng</label>
+            <textarea id="shipAddress" name="address" rows="2" autocomplete="street-address" aria-describedby="shipAddressMsg"></textarea>
+            <small class="field-msg" id="shipAddressMsg"></small>
+          </div>
+          <div class="field">
+            <label for="payMethod">Phương thức thanh toán</label>
+            <select id="payMethod" name="paymentMethod">
+              <option value="COD">Thanh toán khi nhận hàng (COD)</option>
+              <option value="BANK">Chuyển khoản ngân hàng</option>
+              <option value="EWALLET">Ví điện tử</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block" id="payBtn">Xác nhận thanh toán</button>
+          <p class="form-error" id="payError" role="alert"></p>
+        </form>
+        <section class="order-summary" aria-label="Tóm tắt đơn hàng" id="orderSummary"></section>
+      </div>
+    </div>
+    <div id="checkoutSuccessView" class="checkout-success" hidden></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script type="module" src="js/shop.js"></script>
+</body>
+</html>

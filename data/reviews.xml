@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews total="101">
+  <review id="1">
+    <product_id>1</product_id>
+    <customer_id>C07</customer_id>
+    <customer_name>Bùi Đức Minh</customer_name>
+    <rating>5</rating>
+    <date>2026-09-10</date>
+    <comment>Rất hài lòng, đáng tiền.</comment>
+  </review>
+  <review id="2">
+    <product_id>1</product_id>
+    <customer_id>C10</customer_id>
+    <customer_name>Ngô Mai Quỳnh</customer_name>
+    <rating>2</rating>
+    <date>2026-09-24</date>
+    <comment>Chất lượng chưa tương xứng với giá.</comment>
+  </review>
+  <review id="3">
+    <product_id>1</product_id>
+    <customer_id>C08</customer_id>
+    <customer_name>Hoàng Thảo Nhi</customer_name>
+    <rating>4</rating>
+    <date>2026-10-26</date>
+    <comment>Khá hài lòng, chỉ cần cải thiện bao bì.</comment>
+  </review>
+  <review id="4">
+    <product_id>1</product_id>
+    <customer_id>C09</customer_id>
+    <customer_name>Đỗ Thanh Phong</customer_name>
+    <rating>4</rating>
+    <date>2026-10-03</date>
+    <comment>Khá hài lòng, chỉ cần cải thiện bao bì.</comment>
+  </review>
+  <review id="5">
+    <product_id>2</product_id>
+    <customer_id>C04</customer_id>
+    <customer_name>Phạm Gia Duy</customer_name>
+    <rating>4</rating>
+    <date>2026-09-22</date>
+    <comment>Sản phẩm tốt so với mức giá.</comment>
+  </review>
+  <review id="6">
+    <product_id>2</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>4</rating>
+    <date>2026-10-02</date>
+    <comment>Chất lượng ổn định, nhân viên hỗ trợ tốt.</comment>
+  </review>
+  <review id="7">
+    <product_id>2</product_id>
+    <customer_id>C06</customer_id>
+    <customer_name>Đặng Khánh Linh</customer_name>
+    <rating>5</rating>
+    <date>2026-09-25</date>
+    <comment>Rất hài lòng, đáng tiền.</comment>
+  </review>
+  <review id="8">
+    <product_id>2</product_id>
+    <customer_id>C08</customer_id>
+    <customer_name>Hoàng Thảo Nhi</customer_name>
+    <rating>5</rating>
+    <date>2026-10-10</date>
+    <comment>Rất hài lòng, đáng tiền.</comment>
+  </review>
+  <review id="9">
+    <product_id>2</product_id>
+    <customer_id>C10</customer_id>
+    <customer_name>Ngô Mai Quỳnh</customer_name>
+    <rating>5</rating>
+    <date>2026-07-13</date>
+    <comment>Sản phẩm rất tốt, đúng như mô tả.</comment>
+  </review>
+  <review id="10">
+    <product_id>2</product_id>
+    <customer_id>C02</customer_id>
+    <customer_name>Trần Thị Bình</customer_name>
+    <rating>5</rating>
+    <date>2026-07-11</date>
+    <comment>Sản phẩm rất tốt, đúng như mô tả.</comment>
+  </review>
+  <review id="11">
+    <product_id>3</product_id>
+    <customer_id>C04</customer_id>
+    <customer_name>Phạm Gia Duy</customer_name>
+    <rating>5</rating>
+    <date>2026-09-14</date>
+    <comment>Chất lượng vượt mong đợi, sẽ mua lại.</comment>
+  </review>
+  <review id="12">
+    <product_id>3</product_id>
+    <customer_id>C11</customer_id>
+    <customer_name>Dương Tuấn Sơn</customer_name>
+    <rating>4</rating>
+    <date>2026-07-26</date>
+    <comment>Khá hài lòng, chỉ cần cải thiện bao bì.</comment>
+  </review>
+  <review id="13">
+    <product_id>3</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>5</rating>
+    <date>2026-10-26</date>
+    <comment>Rất hài lòng, đáng tiền.</comment>
+  </review>
+  <review id="14">
+    <product_id>3</product_id>
+    <customer_id>C10</customer_id>
+    <customer_name>Ngô Mai Quỳnh</customer_name>
+    <rating>5</rating>
+    <date>2026-08-28</date>
+    <comment>Giao hàng nhanh, đóng gói cẩn thận.</comment>
+  </review>
+  <review id="15">
+    <product_id>4</product_id>
+    <customer_id>C03</customer_id>
+    <customer_name>Lê Hoàng Châu</customer_name>
+    <rating>4</rating>
+    <date>2026-08-20</date>
+    <comment>Sản phẩm tốt so với mức giá.</comment>
+  </review>
+  <review id="16">
+    <product_id>4</product_id>
+    <customer_id>C06</customer_id>
+    <customer_name>Đặng Khánh Linh</customer_name>
+    <rating>3</rating>
+    <date>2026-09-05</date>
+    <comment>Chất lượng trung bình so với kỳ vọng.</comment>
+  </review>
+  <review id="17">
+    <product_id>4</product_id>
+    <customer_id>C08</customer_id>
+    <customer_name>Hoàng Thảo Nhi</customer_name>
+    <rating>3</rating>
+    <date>2026-08-27</date>
+    <comment>Tạm ổn, chưa có gì nổi bật.</comment>
+  </review>
+  <review id="18">
+    <product_id>4</product_id>
+    <customer_id>C09</customer_id>
+    <customer_name>Đỗ Thanh Phong</customer_name>
+    <rating>3</rating>
+    <date>2026-08-06</date>
+    <comment>Tạm ổn, chưa có gì nổi bật.</comment>
+  </review>
+  <review id="19">
+    <product_id>4</product_id>
+    <customer_id>C01</customer_id>
+    <customer_name>Nguyễn Văn An</customer_name>
+    <rating>3</rating>
+    <date>2026-07-22</date>
+    <comment>Chất lượng trung bình so với kỳ vọng.</comment>
+  </review>
+  <review id="20">
+    <product_id>4</product_id>
+    <customer_id>C04</customer_id>
+    <customer_name>Phạm Gia Duy</customer_name>
+    <rating>2</rating>
+    <date>2026-08-07</date>
+    <comment>Chất lượng chưa tương xứng với giá.</comment>
+  </review>
+  <review id="21">
+    <product_id>5</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>4</rating>
+    <date>2026-08-13</date>
+    <comment>Sản phẩm tốt so với mức giá.</comment>
+  </review>
+  <review id="22">
+    <product_id>5</product_id>
+    <customer_id>C04</customer_id>
+    <customer_name>Phạm Gia Duy</customer_name>
+    <rating>5</rating>
+    <date>2026-07-10</date>
+    <comment>Rất hài lòng, đáng tiền.</comment>
+  </review>
+  <review id="23">
+    <product_id>5</product_id>
+    <customer_id>C02</customer_id>
+    <customer_name>Trần Thị Bình</customer_name>
+    <rating>4</rating>
+    <date>2026-06-20</date>
+    <comment>Chất lượng ổn định, nhân viên hỗ trợ tốt.</comment>
+  </review>
+  <review id="24">
+    <product_id>5</product_id>
+    <customer_id>C07</customer_id>
+    <customer_name>Bùi Đức Minh</customer_name>
+    <rating>4</rating>
+    <date>2026-08-13</date>
+    <comment>Khá hài lòng, chỉ cần cải thiện bao bì.</comment>
+  </review>
+  <review id="25">
+    <product_id>5</product_id>
+    <customer_id>C08</customer_id>
+    <customer_name>Hoàng Thảo Nhi</customer_name>
+    <rating>4</rating>
+    <date>2026-09-27</date>
+    <comment>Dùng ổn, giao hàng đúng hẹn.</comment>
+  </review>
+  <review id="26">
+    <product_id>5</product_id>
+    <customer_id>C11</customer_id>
+    <customer_name>Dương Tuấn Sơn</customer_name>
+    <rating>5</rating>
+    <date>2026-08-26</date>
+    <comment>Sản phẩm rất tốt, đúng như mô tả.</comment>
+  </review>
+  <review id="27">
+    <product_id>5</product_id>
+    <customer_id>C10</customer_id>
+    <customer_name>Ngô Mai Quỳnh</customer_name>
+    <rating>5</rating>
+    <date>2026-06-13</date>
+    <comment>Giao hàng nhanh, đóng gói cẩn thận.</comment>
+  </review>
+  <review id="28">
+    <product_id>6</product_id>
+    <customer_id>C03</customer_id>
+    <customer_name>Lê Hoàng Châu</customer_name>
+    <rating>3</rating>
+    <date>2026-09-23</date>
+    <comment>Tạm ổn, chưa có gì nổi bật.</comment>
+  </review>
+  <review id="29">
+    <product_id>6</product_id>
+    <customer_id>C09</customer_id>
+    <customer_name>Đỗ Thanh Phong</customer_name>
+    <rating>4</rating>
+    <date>2026-06-19</date>
+    <comment>Khá hài lòng, chỉ cần cải thiện bao bì.</comment>
+  </review>
+  <review id="30">
+    <product_id>6</product_id>
+    <customer_id>C07</customer_id>
+    <customer_name>Bùi Đức Minh</customer_name>
+    <rating>5</rating>
+    <date>2026-10-05</date>
+    <comment>Sản phẩm rất tốt, đúng như mô tả.</comment>
+  </review>
+  <review id="31">
+    <product_id>7</product_id>
+    <customer_id>C11</customer_id>
+    <customer_name>Dương Tuấn Sơn</customer_name>
+    <rating>4</rating>
+    <date>2026-07-28</date>
+    <comment>Dùng ổn, giao hàng đúng hẹn.</comment>
+  </review>
+  <review id="32">
+    <product_id>7</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>2</rating>
+    <date>2026-10-28</date>
+    <comment>Chất lượng chưa tương xứng với giá.</comment>
+  </review>
+  <review id="33">
+    <product_id>7</product_id>
+    <customer_id>C10</customer_id>
+    <customer_name>Ngô Mai Quỳnh</customer_name>
+    <rating>2</rating>
+    <date>2026-08-05</date>
+    <comment>Chưa hài lòng lắm, khác với hình ảnh.</comment>
+  </review>
+  <review id="34">
+    <product_id>7</product_id>
+    <customer_id>C04</customer_id>
+    <customer_name>Phạm Gia Duy</customer_name>
+    <rating>3</rating>
+    <date>2026-09-21</date>
+    <comment>Dùng được, giá hơi cao một chút.</comment>
+  </review>
+  <review id="35">
+    <product_id>8</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>1</rating>
+    <date>2026-09-23</date>
+    <comment>Sản phẩm không như mô tả, khá thất vọng.</comment>
+  </review>
+  <review id="36">
+    <product_id>8</product_id>
+    <customer_id>C05</customer_id>
+    <customer_name>Võ Ngọc Hân</customer_name>
+    <rating>2</rating>
+    <date>2026-09-30</date>
+    <comment>Giao hàng chậm, sản phẩm tạm dùng.</comment>
+  </review>
+  <review id="37">
+    <product_id>8</product_id>
+    <customer_id>C07</customer_id>
+    <customer_name>Bùi Đức Minh</customer_name>
+    <rating>2</rating>
+    <date>2026-07-20</date>
+    <comment>Chất lượng chưa tương xứng với giá.</comment>
+  </review>
+  <review id="38">
+    <product_id>8</product_id>
+    <customer_id>C01</customer_id>
+    <customer_name>Nguyễn Văn An</customer_name>
+    <rating>1</rating>
+    <date>2026-06-12</date>
+    <comment>Chất lượng kém, không muốn mua lại.</comment>
+  </review>
+  <review id="39">
+    <product_id>9</product_id>
+    <customer_id>C04</customer_id>
+    <customer_name>Phạm Gia Duy</customer_name>
+    <rating>4</rating>
+    <date>2026-06-05</date>
+    <comment>Dùng ổn, giao hàng đúng hẹn.</comment>
+  </review>
+  <review id="40">
+    <product_id>9</product_id>
+    <customer_id>C05</customer_id>
+    <customer_name>Võ Ngọc Hân</customer_name>
+    <rating>3</rating>
+    <date>2026-06-19</date>
+    <comment>Dùng được, giá hơi cao một chút.</comment>
+  </review>
+  <review id="41">
+    <product_id>9</product_id>
+    <customer_id>C01</customer_id>
+    <customer_name>Nguyễn Văn An</customer_name>
+    <rating>4</rating>
+    <date>2026-10-23</date>
+    <comment>Chất lượng ổn định, nhân viên hỗ trợ tốt.</comment>
+  </review>
+  <review id="42">
+    <product_id>9</product_id>
+    <customer_id>C06</customer_id>
+    <customer_name>Đặng Khánh Linh</customer_name>
+    <rating>4</rating>
+    <date>2026-10-06</date>
+    <comment>Sản phẩm tốt so với mức giá.</comment>
+  </review>
+  <review id="43">
+    <product_id>9</product_id>
+    <customer_id>C08</customer_id>
+    <customer_name>Hoàng Thảo Nhi</customer_name>
+    <rating>3</rating>
+    <date>2026-07-04</date>
+    <comment>Chất lượng trung bình so với kỳ vọng.</comment>
+  </review>
+  <review id="44">
+    <product_id>9</product_id>
+    <customer_id>C09</customer_id>
+    <customer_name>Đỗ Thanh Phong</customer_name>
+    <rating>5</rating>
+    <date>2026-10-28</date>
+    <comment>Rất hài lòng, đáng tiền.</comment>
+  </review>
+  <review id="45">
+    <product_id>9</product_id>
+    <customer_id>C07</customer_id>
+    <customer_name>Bùi Đức Minh</customer_name>
+    <rating>4</rating>
+    <date>2026-08-11</date>
+    <comment>Dùng ổn, giao hàng đúng hẹn.</comment>
+  </review>
+  <review id="46">
+    <product_id>10</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>2</rating>
+    <date>2026-06-27</date>
+    <comment>Chưa hài lòng lắm, khác với hình ảnh.</comment>
+  </review>
+  <review id="47">
+    <product_id>10</product_id>
+    <customer_id>C11</customer_id>
+    <customer_name>Dương Tuấn Sơn</customer_name>
+    <rating>3</rating>
+    <date>2026-07-31</date>
+    <comment>Tạm ổn, chưa có gì nổi bật.</comment>
+  </review>
+  <review id="48">
+    <product_id>10</product_id>
+    <customer_id>C06</customer_id>
+    <customer_name>Đặng Khánh Linh</customer_name>
+    <rating>2</rating>
+    <date>2026-09-20</date>
+    <comment>Chất lượng chưa tương xứng với giá.</comment>
+  </review>
+  <review id="49">
+    <product_id>10</product_id>
+    <customer_id>C01</customer_id>
+    <customer_name>Nguyễn Văn An</customer_name>
+    <rating>4</rating>
+    <date>2026-09-28</date>
+    <comment>Chất lượng ổn định, nhân viên hỗ trợ tốt.</comment>
+  </review>
+  <review id="50">
+    <product_id>11</product_id>
+    <customer_id>C01</customer_id>
+    <customer_name>Nguyễn Văn An</customer_name>
+    <rating>4</rating>
+    <date>2026-08-02</date>
+    <comment>Chất lượng ổn định, nhân viên hỗ trợ tốt.</comment>
+  </review>
+  <review id="51">
+    <product_id>11</product_id>
+    <customer_id>C02</customer_id>
+    <customer_name>Trần Thị Bình</customer_name>
+    <rating>5</rating>
+    <date>2026-06-28</date>
+    <comment>Giao hàng nhanh, đóng gói cẩn thận.</comment>
+  </review>
+  <review id="52">
+    <product_id>11</product_id>
+    <customer_id>C06</customer_id>
+    <customer_name>Đặng Khánh Linh</customer_name>
+    <rating>4</rating>
+    <date>2026-09-07</date>
+    <comment>Chất lượng ổn định, nhân viên hỗ trợ tốt.</comment>
+  </review>
+  <review id="53">
+    <product_id>11</product_id>
+    <customer_id>C11</customer_id>
+    <customer_name>Dương Tuấn Sơn</customer_name>
+    <rating>5</rating>
+    <date>2026-07-28</date>
+    <comment>Chất lượng vượt mong đợi, sẽ mua lại.</comment>
+  </review>
+  <review id="54">
+    <product_id>11</product_id>
+    <customer_id>C08</customer_id>
+    <customer_name>Hoàng Thảo Nhi</customer_name>
+    <rating>5</rating>
+    <date>2026-10-26</date>
+    <comment>Giao hàng nhanh, đóng gói cẩn thận.</comment>
+  </review>
+  <review id="55">
+    <product_id>12</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>4</rating>
+    <date>2026-07-11</date>
+    <comment>Sản phẩm tốt so với mức giá.</comment>
+  </review>
+  <review id="56">
+    <product_id>12</product_id>
+    <customer_id>C10</customer_id>
+    <customer_name>Ngô Mai Quỳnh</customer_name>
+    <rating>4</rating>
+    <date>2026-09-18</date>
+    <comment>Khá hài lòng, chỉ cần cải thiện bao bì.</comment>
+  </review>
+  <review id="57">
+    <product_id>12</product_id>
+    <customer_id>C05</customer_id>
+    <customer_name>Võ Ngọc Hân</customer_name>
+    <rating>5</rating>
+    <date>2026-09-27</date>
+    <comment>Giao hàng nhanh, đóng gói cẩn thận.</comment>
+  </review>
+  <review id="58">
+    <product_id>12</product_id>
+    <customer_id>C06</customer_id>
+    <customer_name>Đặng Khánh Linh</customer_name>
+    <rating>5</rating>
+    <date>2026-07-16</date>
+    <comment>Giao hàng nhanh, đóng gói cẩn thận.</comment>
+  </review>
+  <review id="59">
+    <product_id>12</product_id>
+    <customer_id>C02</customer_id>
+    <customer_name>Trần Thị Bình</customer_name>
+    <rating>5</rating>
+    <date>2026-06-20</date>
+    <comment>Rất hài lòng, đáng tiền.</comment>
+  </review>
+  <review id="60">
+    <product_id>12</product_id>
+    <customer_id>C08</customer_id>
+    <customer_name>Hoàng Thảo Nhi</customer_name>
+    <rating>5</rating>
+    <date>2026-10-27</date>
+    <comment>Chất lượng vượt mong đợi, sẽ mua lại.</comment>
+  </review>
+  <review id="61">
+    <product_id>12</product_id>
+    <customer_id>C04</customer_id>
+    <customer_name>Phạm Gia Duy</customer_name>
+    <rating>5</rating>
+    <date>2026-08-22</date>
+    <comment>Rất hài lòng, đáng tiền.</comment>
+  </review>
+  <review id="62">
+    <product_id>13</product_id>
+    <customer_id>C08</customer_id>
+    <customer_name>Hoàng Thảo Nhi</customer_name>
+    <rating>3</rating>
+    <date>2026-07-14</date>
+    <comment>Chất lượng trung bình so với kỳ vọng.</comment>
+  </review>
+  <review id="63">
+    <product_id>13</product_id>
+    <customer_id>C09</customer_id>
+    <customer_name>Đỗ Thanh Phong</customer_name>
+    <rating>3</rating>
+    <date>2026-09-07</date>
+    <comment>Chất lượng trung bình so với kỳ vọng.</comment>
+  </review>
+  <review id="64">
+    <product_id>13</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>3</rating>
+    <date>2026-08-12</date>
+    <comment>Chất lượng trung bình so với kỳ vọng.</comment>
+  </review>
+  <review id="65">
+    <product_id>14</product_id>
+    <customer_id>C04</customer_id>
+    <customer_name>Phạm Gia Duy</customer_name>
+    <rating>1</rating>
+    <date>2026-08-02</date>
+    <comment>Sản phẩm không như mô tả, khá thất vọng.</comment>
+  </review>
+  <review id="66">
+    <product_id>14</product_id>
+    <customer_id>C09</customer_id>
+    <customer_name>Đỗ Thanh Phong</customer_name>
+    <rating>2</rating>
+    <date>2026-07-25</date>
+    <comment>Giao hàng chậm, sản phẩm tạm dùng.</comment>
+  </review>
+  <review id="67">
+    <product_id>14</product_id>
+    <customer_id>C02</customer_id>
+    <customer_name>Trần Thị Bình</customer_name>
+    <rating>1</rating>
+    <date>2026-08-23</date>
+    <comment>Chất lượng kém, không muốn mua lại.</comment>
+  </review>
+  <review id="68">
+    <product_id>14</product_id>
+    <customer_id>C07</customer_id>
+    <customer_name>Bùi Đức Minh</customer_name>
+    <rating>2</rating>
+    <date>2026-09-29</date>
+    <comment>Chưa hài lòng lắm, khác với hình ảnh.</comment>
+  </review>
+  <review id="69">
+    <product_id>14</product_id>
+    <customer_id>C01</customer_id>
+    <customer_name>Nguyễn Văn An</customer_name>
+    <rating>2</rating>
+    <date>2026-07-23</date>
+    <comment>Giao hàng chậm, sản phẩm tạm dùng.</comment>
+  </review>
+  <review id="70">
+    <product_id>15</product_id>
+    <customer_id>C02</customer_id>
+    <customer_name>Trần Thị Bình</customer_name>
+    <rating>3</rating>
+    <date>2026-09-23</date>
+    <comment>Dùng được, giá hơi cao một chút.</comment>
+  </review>
+  <review id="71">
+    <product_id>15</product_id>
+    <customer_id>C04</customer_id>
+    <customer_name>Phạm Gia Duy</customer_name>
+    <rating>3</rating>
+    <date>2026-08-11</date>
+    <comment>Tạm ổn, chưa có gì nổi bật.</comment>
+  </review>
+  <review id="72">
+    <product_id>15</product_id>
+    <customer_id>C11</customer_id>
+    <customer_name>Dương Tuấn Sơn</customer_name>
+    <rating>2</rating>
+    <date>2026-09-14</date>
+    <comment>Chưa hài lòng lắm, khác với hình ảnh.</comment>
+  </review>
+  <review id="73">
+    <product_id>15</product_id>
+    <customer_id>C03</customer_id>
+    <customer_name>Lê Hoàng Châu</customer_name>
+    <rating>4</rating>
+    <date>2026-08-12</date>
+    <comment>Chất lượng ổn định, nhân viên hỗ trợ tốt.</comment>
+  </review>
+  <review id="74">
+    <product_id>15</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>2</rating>
+    <date>2026-10-24</date>
+    <comment>Chưa hài lòng lắm, khác với hình ảnh.</comment>
+  </review>
+  <review id="75">
+    <product_id>15</product_id>
+    <customer_id>C01</customer_id>
+    <customer_name>Nguyễn Văn An</customer_name>
+    <rating>3</rating>
+    <date>2026-06-15</date>
+    <comment>Dùng được, giá hơi cao một chút.</comment>
+  </review>
+  <review id="76">
+    <product_id>15</product_id>
+    <customer_id>C10</customer_id>
+    <customer_name>Ngô Mai Quỳnh</customer_name>
+    <rating>2</rating>
+    <date>2026-08-20</date>
+    <comment>Chưa hài lòng lắm, khác với hình ảnh.</comment>
+  </review>
+  <review id="77">
+    <product_id>16</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>3</rating>
+    <date>2026-10-10</date>
+    <comment>Dùng được, giá hơi cao một chút.</comment>
+  </review>
+  <review id="78">
+    <product_id>16</product_id>
+    <customer_id>C03</customer_id>
+    <customer_name>Lê Hoàng Châu</customer_name>
+    <rating>3</rating>
+    <date>2026-06-12</date>
+    <comment>Chất lượng trung bình so với kỳ vọng.</comment>
+  </review>
+  <review id="79">
+    <product_id>16</product_id>
+    <customer_id>C02</customer_id>
+    <customer_name>Trần Thị Bình</customer_name>
+    <rating>4</rating>
+    <date>2026-07-19</date>
+    <comment>Khá hài lòng, chỉ cần cải thiện bao bì.</comment>
+  </review>
+  <review id="80">
+    <product_id>16</product_id>
+    <customer_id>C08</customer_id>
+    <customer_name>Hoàng Thảo Nhi</customer_name>
+    <rating>3</rating>
+    <date>2026-07-30</date>
+    <comment>Chất lượng trung bình so với kỳ vọng.</comment>
+  </review>
+  <review id="81">
+    <product_id>17</product_id>
+    <customer_id>C03</customer_id>
+    <customer_name>Lê Hoàng Châu</customer_name>
+    <rating>5</rating>
+    <date>2026-06-13</date>
+    <comment>Giao hàng nhanh, đóng gói cẩn thận.</comment>
+  </review>
+  <review id="82">
+    <product_id>17</product_id>
+    <customer_id>C01</customer_id>
+    <customer_name>Nguyễn Văn An</customer_name>
+    <rating>3</rating>
+    <date>2026-06-26</date>
+    <comment>Dùng được, giá hơi cao một chút.</comment>
+  </review>
+  <review id="83">
+    <product_id>17</product_id>
+    <customer_id>C09</customer_id>
+    <customer_name>Đỗ Thanh Phong</customer_name>
+    <rating>3</rating>
+    <date>2026-07-16</date>
+    <comment>Tạm ổn, chưa có gì nổi bật.</comment>
+  </review>
+  <review id="84">
+    <product_id>17</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>5</rating>
+    <date>2026-07-06</date>
+    <comment>Giao hàng nhanh, đóng gói cẩn thận.</comment>
+  </review>
+  <review id="85">
+    <product_id>17</product_id>
+    <customer_id>C06</customer_id>
+    <customer_name>Đặng Khánh Linh</customer_name>
+    <rating>4</rating>
+    <date>2026-07-11</date>
+    <comment>Dùng ổn, giao hàng đúng hẹn.</comment>
+  </review>
+  <review id="86">
+    <product_id>17</product_id>
+    <customer_id>C10</customer_id>
+    <customer_name>Ngô Mai Quỳnh</customer_name>
+    <rating>2</rating>
+    <date>2026-08-20</date>
+    <comment>Chất lượng chưa tương xứng với giá.</comment>
+  </review>
+  <review id="87">
+    <product_id>18</product_id>
+    <customer_id>C09</customer_id>
+    <customer_name>Đỗ Thanh Phong</customer_name>
+    <rating>3</rating>
+    <date>2026-07-05</date>
+    <comment>Dùng được, giá hơi cao một chút.</comment>
+  </review>
+  <review id="88">
+    <product_id>18</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>5</rating>
+    <date>2026-06-08</date>
+    <comment>Chất lượng vượt mong đợi, sẽ mua lại.</comment>
+  </review>
+  <review id="89">
+    <product_id>18</product_id>
+    <customer_id>C07</customer_id>
+    <customer_name>Bùi Đức Minh</customer_name>
+    <rating>4</rating>
+    <date>2026-07-12</date>
+    <comment>Chất lượng ổn định, nhân viên hỗ trợ tốt.</comment>
+  </review>
+  <review id="90">
+    <product_id>18</product_id>
+    <customer_id>C03</customer_id>
+    <customer_name>Lê Hoàng Châu</customer_name>
+    <rating>5</rating>
+    <date>2026-09-16</date>
+    <comment>Rất hài lòng, đáng tiền.</comment>
+  </review>
+  <review id="91">
+    <product_id>18</product_id>
+    <customer_id>C10</customer_id>
+    <customer_name>Ngô Mai Quỳnh</customer_name>
+    <rating>5</rating>
+    <date>2026-10-12</date>
+    <comment>Chất lượng vượt mong đợi, sẽ mua lại.</comment>
+  </review>
+  <review id="92">
+    <product_id>19</product_id>
+    <customer_id>C11</customer_id>
+    <customer_name>Dương Tuấn Sơn</customer_name>
+    <rating>5</rating>
+    <date>2026-07-21</date>
+    <comment>Giao hàng nhanh, đóng gói cẩn thận.</comment>
+  </review>
+  <review id="93">
+    <product_id>19</product_id>
+    <customer_id>C09</customer_id>
+    <customer_name>Đỗ Thanh Phong</customer_name>
+    <rating>3</rating>
+    <date>2026-06-16</date>
+    <comment>Tạm ổn, chưa có gì nổi bật.</comment>
+  </review>
+  <review id="94">
+    <product_id>19</product_id>
+    <customer_id>C03</customer_id>
+    <customer_name>Lê Hoàng Châu</customer_name>
+    <rating>5</rating>
+    <date>2026-09-25</date>
+    <comment>Sản phẩm rất tốt, đúng như mô tả.</comment>
+  </review>
+  <review id="95">
+    <product_id>19</product_id>
+    <customer_id>C07</customer_id>
+    <customer_name>Bùi Đức Minh</customer_name>
+    <rating>5</rating>
+    <date>2026-09-13</date>
+    <comment>Chất lượng vượt mong đợi, sẽ mua lại.</comment>
+  </review>
+  <review id="96">
+    <product_id>19</product_id>
+    <customer_id>C12</customer_id>
+    <customer_name>Lý Thu Trang</customer_name>
+    <rating>3</rating>
+    <date>2026-08-28</date>
+    <comment>Tạm ổn, chưa có gì nổi bật.</comment>
+  </review>
+  <review id="97">
+    <product_id>20</product_id>
+    <customer_id>C10</customer_id>
+    <customer_name>Ngô Mai Quỳnh</customer_name>
+    <rating>3</rating>
+    <date>2026-07-12</date>
+    <comment>Dùng được, giá hơi cao một chút.</comment>
+  </review>
+  <review id="98">
+    <product_id>20</product_id>
+    <customer_id>C08</customer_id>
+    <customer_name>Hoàng Thảo Nhi</customer_name>
+    <rating>4</rating>
+    <date>2026-07-01</date>
+    <comment>Chất lượng ổn định, nhân viên hỗ trợ tốt.</comment>
+  </review>
+  <review id="99">
+    <product_id>20</product_id>
+    <customer_id>C07</customer_id>
+    <customer_name>Bùi Đức Minh</customer_name>
+    <rating>4</rating>
+    <date>2026-06-19</date>
+    <comment>Dùng ổn, giao hàng đúng hẹn.</comment>
+  </review>
+  <review id="100">
+    <product_id>20</product_id>
+    <customer_id>C09</customer_id>
+    <customer_name>Đỗ Thanh Phong</customer_name>
+    <rating>3</rating>
+    <date>2026-08-27</date>
+    <comment>Dùng được, giá hơi cao một chút.</comment>
+  </review>
+  <review id="101">
+    <product_id>20</product_id>
+    <customer_id>C05</customer_id>
+    <customer_name>Võ Ngọc Hân</customer_name>
+    <rating>3</rating>
+    <date>2026-10-26</date>
+    <comment>Tạm ổn, chưa có gì nổi bật.</comment>
+  </review>
+</reviews>

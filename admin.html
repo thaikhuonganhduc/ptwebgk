@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quản trị | Đức Mart</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-page">
+  <main class="login-screen" id="loginScreen">
+    <form class="login-card" id="adminLoginForm" novalidate>
+      <a class="brand" href="index.html">Đức Mart</a>
+      <h1>Đăng nhập quản trị</h1>
+      <p class="hint">Tài khoản mẫu: <code>admin</code> / <code>Admin@123</code></p>
+      <div class="field">
+        <label for="adminUsername">Tên đăng nhập</label>
+        <input type="text" id="adminUsername" name="username" autocomplete="username">
+      </div>
+      <div class="field">
+        <label for="adminPassword">Mật khẩu</label>
+        <input type="password" id="adminPassword" name="password" autocomplete="current-password">
+      </div>
+      <p class="form-error" id="adminLoginError" role="alert"></p>
+      <button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>
+      <a class="back-link" href="index.html">Về trang cửa hàng</a>
+    </form>
+  </main>
+
+  <div class="admin-shell" id="adminShell" hidden>
+    <header class="admin-header">
+      <a class="brand" href="index.html">Đức Mart</a>
+      <nav class="admin-nav" id="adminNav" aria-label="Menu quản trị">
+        <button type="button" class="is-active" data-view="overview">Tổng quan</button>
+        <button type="button" data-view="orders">Đơn hàng</button>
+        <button type="button" data-view="products">Sản phẩm đã bán</button>
+      </nav>
+      <div class="admin-user">
+        <span id="adminUserName"></span>
+        <button type="button" class="btn" id="adminLogoutBtn">Đăng xuất</button>
+      </div>
+    </header>
+
+    <main class="admin-main">
+      <section id="view-overview" aria-labelledby="overviewTitle">
+        <h1 id="overviewTitle">Tổng quan bán hàng</h1>
+        <p class="result-count">Doanh thu và số sản phẩm đã bán không tính đơn đã hủy.</p>
+        <div class="kpi-grid" id="kpiGrid"></div>
+        <div class="status-row" id="statusRow"></div>
+        <div class="chart-grid">
+          <article class="panel">
+            <h2>Doanh thu theo tháng (USD)</h2>
+            <div class="chart" id="revenueChart"></div>
+            <div class="chart-tooltip" id="chartTooltip" hidden></div>
+            <details class="chart-table">
+              <summary>Xem dạng bảng</summary>
+              <div id="revenueTable"></div>
+            </details>
+          </article>
+          <article class="panel">
+            <h2>Top 5 sản phẩm bán chạy (số lượng)</h2>
+            <div id="topProducts"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="view-orders" aria-labelledby="ordersTitle" hidden>
+        <h1 id="ordersTitle">Quản lý đơn hàng</h1>
+        <form class="filter-row" id="orderFilterForm">
+          <div class="field">
+            <label for="orderKeyword">Tìm mã đơn hoặc khách hàng</label>
+            <input type="search" id="orderKeyword" name="keyword" placeholder="Ví dụ: HD0005">
+          </div>
+          <div class="field">
+            <label for="orderStatusFilter">Trạng thái</label>
+            <select id="orderStatusFilter" name="status">
+              <option value="all">Tất cả trạng thái</option>
+              <option value="processing">Đang xử lý</option>
+              <option value="shipping">Đang giao</option>
+              <option value="completed">Hoàn thành</option>
+              <option value="cancelled">Đã hủy</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="orderMonth">Tháng</label>
+            <select id="orderMonth" name="month"><option value="all">Tất cả các tháng</option></select>
+          </div>
+        </form>
+        <p class="result-count" id="orderCount" role="status"></p>
+        <div class="panel table-scroll">
+          <table class="data-table" id="ordersTable">
+            <thead>
+              <tr>
+                <th>Mã đơn</th><th>Ngày tạo</th><th>Khách hàng</th><th>Nhân viên</th>
+                <th class="num">Số SP</th><th class="num">Tổng tiền</th><th>Trạng thái</th><th></th>
+              </tr>
+            </thead>
+            <tbody id="ordersBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="view-products" aria-labelledby="productsStatsTitle" hidden>
+        <h1 id="productsStatsTitle">Thống kê sản phẩm đã bán</h1>
+        <p class="result-count">Sắp xếp theo số lượng bán. Tồn kho từ 5 trở xuống được đánh dấu cần nhập thêm.</p>
+        <div class="panel table-scroll">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>SKU</th><th>Sản phẩm</th><th>Danh mục</th><th class="num">Giá</th>
+                <th class="num">Đã bán</th><th class="num">Doanh thu</th><th class="num">Tồn kho</th>
+              </tr>
+            </thead>
+            <tbody id="productStatsBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <dialog class="modal" id="orderDialog" aria-labelledby="orderDialogTitle"></dialog>
+
+  <footer class="site-footer">
+    <p>Sinh viên thực hiện: <strong>Thái Khương Anh Đức</strong> · MSSV: <strong>K234161828</strong></p>
+  </footer>
+
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>

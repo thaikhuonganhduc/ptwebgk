@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carts currency="USD" total="30">
+  <cart id="1" code="HD0001" createdAt="2026-06-13T06:09:18" status="completed">
+    <employee id="E02">
+      <name>Trần Minh Anh</name>
+    </employee>
+    <customer id="C09">
+      <name>Đỗ Thanh Phong</name>
+      <phone>0935000009</phone>
+      <email>phong.do@example.com</email>
+      <address>230 Quang Trung, Gò Vấp, TP. Hồ Chí Minh</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="6" sku="FS-006-gold-0" color="gold" colorName="Vàng" size="Free size" quantity="1" unitPrice="168.00" lineTotal="168.00">
+        <title>Solid Gold Petite Micropave </title>
+      </item>
+    </items>
+    <total>168.00</total>
+  </cart>
+  <cart id="2" code="HD0002" createdAt="2026-06-14T14:15:22" status="completed">
+    <employee id="E02">
+      <name>Trần Minh Anh</name>
+    </employee>
+    <customer id="C09">
+      <name>Đỗ Thanh Phong</name>
+      <phone>0935000009</phone>
+      <email>phong.do@example.com</email>
+      <address>230 Quang Trung, Gò Vấp, TP. Hồ Chí Minh</address>
+    </customer>
+    <paymentMethod>EWALLET</paymentMethod>
+    <items>
+      <item product_id="8" sku="FS-008-gold-0" color="gold" colorName="Vàng" size="Free size" quantity="1" unitPrice="10.99" lineTotal="10.99">
+        <title>Pierced Owl Rose Gold Plated Stainless Steel Double</title>
+      </item>
+    </items>
+    <total>10.99</total>
+  </cart>
+  <cart id="3" code="HD0003" createdAt="2026-06-22T21:21:27" status="completed">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C05">
+      <name>Võ Ngọc Hân</name>
+      <phone>0833000005</phone>
+      <email>han.vo@example.com</email>
+      <address>27 Hùng Vương, Ninh Kiều, Cần Thơ</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="1" sku="FS-001-navy-1" color="navy" colorName="Xanh navy" size="M" quantity="3" unitPrice="109.95" lineTotal="329.85">
+        <title>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</title>
+      </item>
+      <item product_id="11" sku="FS-011-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="3" unitPrice="109.00" lineTotal="327.00">
+        <title>Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</title>
+      </item>
+    </items>
+    <total>656.85</total>
+  </cart>
+  <cart id="4" code="HD0004" createdAt="2026-06-29T02:22:18" status="completed">
+    <employee id="E01">
+      <name>Thái Khương Anh Đức</name>
+    </employee>
+    <customer id="C08">
+      <name>Hoàng Thảo Nhi</name>
+      <phone>0522000008</phone>
+      <email>nhi.hoang@example.com</email>
+      <address>19 Yersin, Nha Trang, Khánh Hòa</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="13" sku="FS-013-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="1" unitPrice="599.00" lineTotal="599.00">
+        <title>Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin</title>
+      </item>
+      <item product_id="20" sku="FS-020-red-1" color="red" colorName="Đỏ" size="M" quantity="3" unitPrice="12.99" lineTotal="38.97">
+        <title>DANVOUY Womens T Shirt Casual Cotton Short</title>
+      </item>
+    </items>
+    <total>637.97</total>
+  </cart>
+  <cart id="5" code="HD0005" createdAt="2026-07-10T16:25:09" status="completed">
+    <employee id="E01">
+      <name>Thái Khương Anh Đức</name>
+    </employee>
+    <customer id="C10">
+      <name>Ngô Mai Quỳnh</name>
+      <phone>0702000010</phone>
+      <email>quynh.ngo@example.com</email>
+      <address>14 Lạch Tray, Ngô Quyền, Hải Phòng</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="7" sku="FS-007-silver-0" color="silver" colorName="Bạc" size="Free size" quantity="1" unitPrice="9.99" lineTotal="9.99">
+        <title>White Gold Plated Princess</title>
+      </item>
+    </items>
+    <total>9.99</total>
+  </cart>
+  <cart id="6" code="HD0006" createdAt="2026-07-13T10:54:48" status="completed">
+    <employee id="E02">
+      <name>Trần Minh Anh</name>
+    </employee>
+    <customer id="C10">
+      <name>Ngô Mai Quỳnh</name>
+      <phone>0702000010</phone>
+      <email>quynh.ngo@example.com</email>
+      <address>14 Lạch Tray, Ngô Quyền, Hải Phòng</address>
+    </customer>
+    <paymentMethod>BANK</paymentMethod>
+    <items>
+      <item product_id="5" sku="FS-005-gold-0" color="gold" colorName="Vàng" size="Free size" quantity="1" unitPrice="695.00" lineTotal="695.00">
+        <title>John Hardy Women's Legends Naga Gold &amp; Silver Dragon Station Chain Bracelet</title>
+      </item>
+      <item product_id="3" sku="FS-003-khaki-2" color="khaki" colorName="Be" size="L" quantity="2" unitPrice="55.99" lineTotal="111.98">
+        <title>Mens Cotton Jacket</title>
+      </item>
+    </items>
+    <total>806.98</total>
+  </cart>
+  <cart id="7" code="HD0007" createdAt="2026-07-16T08:45:03" status="completed">
+    <employee id="E02">
+      <name>Trần Minh Anh</name>
+    </employee>
+    <customer id="C01">
+      <name>Nguyễn Văn An</name>
+      <phone>0912000001</phone>
+      <email>an.nguyen@example.com</email>
+      <address>12 Lê Lợi, Quận 1, TP. Hồ Chí Minh</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="7" sku="FS-007-silver-0" color="silver" colorName="Bạc" size="Free size" quantity="2" unitPrice="9.99" lineTotal="19.98">
+        <title>White Gold Plated Princess</title>
+      </item>
+      <item product_id="2" sku="FS-002-black-0" color="black" colorName="Đen" size="S" quantity="1" unitPrice="22.30" lineTotal="22.30">
+        <title>Mens Casual Premium Slim Fit T-Shirts </title>
+      </item>
+    </items>
+    <total>42.28</total>
+  </cart>
+  <cart id="8" code="HD0008" createdAt="2026-07-28T08:23:59" status="completed">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C06">
+      <name>Đặng Khánh Linh</name>
+      <phone>0909000006</phone>
+      <email>linh.dang@example.com</email>
+      <address>66 Võ Văn Tần, Quận 3, TP. Hồ Chí Minh</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="4" sku="FS-004-navy-3" color="navy" colorName="Xanh navy" size="XL" quantity="1" unitPrice="15.99" lineTotal="15.99">
+        <title>Mens Casual Slim Fit</title>
+      </item>
+      <item product_id="13" sku="FS-013-silver-0" color="silver" colorName="Bạc" size="Tiêu chuẩn" quantity="1" unitPrice="599.00" lineTotal="599.00">
+        <title>Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin</title>
+      </item>
+    </items>
+    <total>614.99</total>
+  </cart>
+  <cart id="9" code="HD0009" createdAt="2026-07-29T05:59:03" status="completed">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C06">
+      <name>Đặng Khánh Linh</name>
+      <phone>0909000006</phone>
+      <email>linh.dang@example.com</email>
+      <address>66 Võ Văn Tần, Quận 3, TP. Hồ Chí Minh</address>
+    </customer>
+    <paymentMethod>BANK</paymentMethod>
+    <items>
+      <item product_id="4" sku="FS-004-gray-2" color="gray" colorName="Xám" size="L" quantity="3" unitPrice="15.99" lineTotal="47.97">
+        <title>Mens Casual Slim Fit</title>
+      </item>
+      <item product_id="13" sku="FS-013-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="1" unitPrice="599.00" lineTotal="599.00">
+        <title>Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin</title>
+      </item>
+      <item product_id="12" sku="FS-012-silver-0" color="silver" colorName="Bạc" size="Tiêu chuẩn" quantity="2" unitPrice="114.00" lineTotal="228.00">
+        <title>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</title>
+      </item>
+    </items>
+    <total>874.97</total>
+  </cart>
+  <cart id="10" code="HD0010" createdAt="2026-07-30T19:30:01" status="completed">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C02">
+      <name>Trần Thị Bình</name>
+      <phone>0987000002</phone>
+      <email>binh.tran@example.com</email>
+      <address>45 Nguyễn Huệ, TP. Huế</address>
+    </customer>
+    <paymentMethod>EWALLET</paymentMethod>
+    <items>
+      <item product_id="11" sku="FS-011-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="3" unitPrice="109.00" lineTotal="327.00">
+        <title>Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</title>
+      </item>
+    </items>
+    <total>327.00</total>
+  </cart>
+  <cart id="11" code="HD0011" createdAt="2026-08-17T19:44:28" status="completed">
+    <employee id="E02">
+      <name>Trần Minh Anh</name>
+    </employee>
+    <customer id="C08">
+      <name>Hoàng Thảo Nhi</name>
+      <phone>0522000008</phone>
+      <email>nhi.hoang@example.com</email>
+      <address>19 Yersin, Nha Trang, Khánh Hòa</address>
+    </customer>
+    <paymentMethod>EWALLET</paymentMethod>
+    <items>
+      <item product_id="9" sku="FS-009-silver-0" color="silver" colorName="Bạc" size="Tiêu chuẩn" quantity="1" unitPrice="64.00" lineTotal="64.00">
+        <title>WD 2TB Elements Portable External Hard Drive - USB 3.0 </title>
+      </item>
+      <item product_id="15" sku="FS-015-black-3" color="black" colorName="Đen" size="XL" quantity="1" unitPrice="56.99" lineTotal="56.99">
+        <title>BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</title>
+      </item>
+    </items>
+    <total>120.99</total>
+  </cart>
+  <cart id="12" code="HD0012" createdAt="2026-08-18T23:08:33" status="completed">
+    <employee id="E02">
+      <name>Trần Minh Anh</name>
+    </employee>
+    <customer id="C04">
+      <name>Phạm Gia Duy</name>
+      <phone>0778000004</phone>
+      <email>duy.pham@example.com</email>
+      <address>101 Kim Mã, Ba Đình, Hà Nội</address>
+    </customer>
+    <paymentMethod>EWALLET</paymentMethod>
+    <items>
+      <item product_id="11" sku="FS-011-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="3" unitPrice="109.00" lineTotal="327.00">
+        <title>Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</title>
+      </item>
+    </items>
+    <total>327.00</total>
+  </cart>
+  <cart id="13" code="HD0013" createdAt="2026-08-25T09:08:27" status="completed">
+    <employee id="E01">
+      <name>Thái Khương Anh Đức</name>
+    </employee>
+    <customer id="C11">
+      <name>Dương Tuấn Sơn</name>
+      <phone>0978000011</phone>
+      <email>son.duong@example.com</email>
+      <address>77 Nguyễn Văn Cừ, TP. Vinh, Nghệ An</address>
+    </customer>
+    <paymentMethod>EWALLET</paymentMethod>
+    <items>
+      <item product_id="15" sku="FS-015-black-2" color="black" colorName="Đen" size="L" quantity="2" unitPrice="56.99" lineTotal="113.98">
+        <title>BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</title>
+      </item>
+      <item product_id="8" sku="FS-008-gold-0" color="gold" colorName="Vàng" size="Free size" quantity="1" unitPrice="10.99" lineTotal="10.99">
+        <title>Pierced Owl Rose Gold Plated Stainless Steel Double</title>
+      </item>
+      <item product_id="12" sku="FS-012-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="1" unitPrice="114.00" lineTotal="114.00">
+        <title>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</title>
+      </item>
+    </items>
+    <total>238.97</total>
+  </cart>
+  <cart id="14" code="HD0014" createdAt="2026-08-27T18:05:09" status="cancelled">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C09">
+      <name>Đỗ Thanh Phong</name>
+      <phone>0935000009</phone>
+      <email>phong.do@example.com</email>
+      <address>230 Quang Trung, Gò Vấp, TP. Hồ Chí Minh</address>
+    </customer>
+    <paymentMethod>BANK</paymentMethod>
+    <items>
+      <item product_id="18" sku="FS-018-red-3" color="red" colorName="Đỏ" size="XL" quantity="2" unitPrice="9.85" lineTotal="19.70">
+        <title>MBJ Women's Solid Short Sleeve Boat Neck V </title>
+      </item>
+    </items>
+    <total>19.70</total>
+  </cart>
+  <cart id="15" code="HD0015" createdAt="2026-08-29T14:44:14" status="completed">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C07">
+      <name>Bùi Đức Minh</name>
+      <phone>0868000007</phone>
+      <email>minh.bui@example.com</email>
+      <address>5 Phan Chu Trinh, Hoàn Kiếm, Hà Nội</address>
+    </customer>
+    <paymentMethod>BANK</paymentMethod>
+    <items>
+      <item product_id="1" sku="FS-001-gray-0" color="gray" colorName="Xám" size="S" quantity="2" unitPrice="109.95" lineTotal="219.90">
+        <title>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</title>
+      </item>
+      <item product_id="15" sku="FS-015-black-3" color="black" colorName="Đen" size="XL" quantity="3" unitPrice="56.99" lineTotal="170.97">
+        <title>BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</title>
+      </item>
+    </items>
+    <total>390.87</total>
+  </cart>
+  <cart id="16" code="HD0016" createdAt="2026-09-13T10:18:41" status="completed">
+    <employee id="E02">
+      <name>Trần Minh Anh</name>
+    </employee>
+    <customer id="C04">
+      <name>Phạm Gia Duy</name>
+      <phone>0778000004</phone>
+      <email>duy.pham@example.com</email>
+      <address>101 Kim Mã, Ba Đình, Hà Nội</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="20" sku="FS-020-white-1" color="white" colorName="Trắng" size="M" quantity="2" unitPrice="12.99" lineTotal="25.98">
+        <title>DANVOUY Womens T Shirt Casual Cotton Short</title>
+      </item>
+      <item product_id="16" sku="FS-016-white-3" color="white" colorName="Trắng" size="XL" quantity="2" unitPrice="29.95" lineTotal="59.90">
+        <title>Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket</title>
+      </item>
+    </items>
+    <total>85.88</total>
+  </cart>
+  <cart id="17" code="HD0017" createdAt="2026-09-19T10:28:22" status="completed">
+    <employee id="E01">
+      <name>Thái Khương Anh Đức</name>
+    </employee>
+    <customer id="C08">
+      <name>Hoàng Thảo Nhi</name>
+      <phone>0522000008</phone>
+      <email>nhi.hoang@example.com</email>
+      <address>19 Yersin, Nha Trang, Khánh Hòa</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="18" sku="FS-018-red-0" color="red" colorName="Đỏ" size="S" quantity="3" unitPrice="9.85" lineTotal="29.55">
+        <title>MBJ Women's Solid Short Sleeve Boat Neck V </title>
+      </item>
+      <item product_id="6" sku="FS-006-gold-0" color="gold" colorName="Vàng" size="Free size" quantity="1" unitPrice="168.00" lineTotal="168.00">
+        <title>Solid Gold Petite Micropave </title>
+      </item>
+    </items>
+    <total>197.55</total>
+  </cart>
+  <cart id="18" code="HD0018" createdAt="2026-10-09T23:06:57" status="completed">
+    <employee id="E01">
+      <name>Thái Khương Anh Đức</name>
+    </employee>
+    <customer id="C01">
+      <name>Nguyễn Văn An</name>
+      <phone>0912000001</phone>
+      <email>an.nguyen@example.com</email>
+      <address>12 Lê Lợi, Quận 1, TP. Hồ Chí Minh</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="2" sku="FS-002-navy-0" color="navy" colorName="Xanh navy" size="S" quantity="1" unitPrice="22.30" lineTotal="22.30">
+        <title>Mens Casual Premium Slim Fit T-Shirts </title>
+      </item>
+      <item product_id="20" sku="FS-020-white-3" color="white" colorName="Trắng" size="XL" quantity="3" unitPrice="12.99" lineTotal="38.97">
+        <title>DANVOUY Womens T Shirt Casual Cotton Short</title>
+      </item>
+    </items>
+    <total>61.27</total>
+  </cart>
+  <cart id="19" code="HD0019" createdAt="2026-10-11T11:02:56" status="completed">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C03">
+      <name>Lê Hoàng Châu</name>
+      <phone>0356000003</phone>
+      <email>chau.le@example.com</email>
+      <address>8 Trần Phú, Hải Châu, Đà Nẵng</address>
+    </customer>
+    <paymentMethod>BANK</paymentMethod>
+    <items>
+      <item product_id="10" sku="FS-010-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="3" unitPrice="109.00" lineTotal="327.00">
+        <title>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</title>
+      </item>
+      <item product_id="1" sku="FS-001-gray-3" color="gray" colorName="Xám" size="XL" quantity="2" unitPrice="109.95" lineTotal="219.90">
+        <title>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</title>
+      </item>
+      <item product_id="20" sku="FS-020-red-0" color="red" colorName="Đỏ" size="S" quantity="3" unitPrice="12.99" lineTotal="38.97">
+        <title>DANVOUY Womens T Shirt Casual Cotton Short</title>
+      </item>
+    </items>
+    <total>585.87</total>
+  </cart>
+  <cart id="20" code="HD0020" createdAt="2026-10-14T06:34:26" status="completed">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C04">
+      <name>Phạm Gia Duy</name>
+      <phone>0778000004</phone>
+      <email>duy.pham@example.com</email>
+      <address>101 Kim Mã, Ba Đình, Hà Nội</address>
+    </customer>
+    <paymentMethod>BANK</paymentMethod>
+    <items>
+      <item product_id="17" sku="FS-017-white-0" color="white" colorName="Trắng" size="S" quantity="1" unitPrice="39.99" lineTotal="39.99">
+        <title>Rain Jacket Women Windbreaker Striped Climbing Raincoats</title>
+      </item>
+    </items>
+    <total>39.99</total>
+  </cart>
+  <cart id="21" code="HD0021" createdAt="2026-10-14T16:27:24" status="completed">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C11">
+      <name>Dương Tuấn Sơn</name>
+      <phone>0978000011</phone>
+      <email>son.duong@example.com</email>
+      <address>77 Nguyễn Văn Cừ, TP. Vinh, Nghệ An</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="9" sku="FS-009-silver-0" color="silver" colorName="Bạc" size="Tiêu chuẩn" quantity="2" unitPrice="64.00" lineTotal="128.00">
+        <title>WD 2TB Elements Portable External Hard Drive - USB 3.0 </title>
+      </item>
+      <item product_id="18" sku="FS-018-red-1" color="red" colorName="Đỏ" size="M" quantity="2" unitPrice="9.85" lineTotal="19.70">
+        <title>MBJ Women's Solid Short Sleeve Boat Neck V </title>
+      </item>
+    </items>
+    <total>147.70</total>
+  </cart>
+  <cart id="22" code="HD0022" createdAt="2026-10-16T07:18:21" status="completed">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C01">
+      <name>Nguyễn Văn An</name>
+      <phone>0912000001</phone>
+      <email>an.nguyen@example.com</email>
+      <address>12 Lê Lợi, Quận 1, TP. Hồ Chí Minh</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="20" sku="FS-020-white-3" color="white" colorName="Trắng" size="XL" quantity="1" unitPrice="12.99" lineTotal="12.99">
+        <title>DANVOUY Womens T Shirt Casual Cotton Short</title>
+      </item>
+    </items>
+    <total>12.99</total>
+  </cart>
+  <cart id="23" code="HD0023" createdAt="2026-10-22T15:14:09" status="completed">
+    <employee id="E02">
+      <name>Trần Minh Anh</name>
+    </employee>
+    <customer id="C07">
+      <name>Bùi Đức Minh</name>
+      <phone>0868000007</phone>
+      <email>minh.bui@example.com</email>
+      <address>5 Phan Chu Trinh, Hoàn Kiếm, Hà Nội</address>
+    </customer>
+    <paymentMethod>BANK</paymentMethod>
+    <items>
+      <item product_id="9" sku="FS-009-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="2" unitPrice="64.00" lineTotal="128.00">
+        <title>WD 2TB Elements Portable External Hard Drive - USB 3.0 </title>
+      </item>
+    </items>
+    <total>128.00</total>
+  </cart>
+  <cart id="24" code="HD0024" createdAt="2026-10-23T21:02:17" status="shipping">
+    <employee id="E02">
+      <name>Trần Minh Anh</name>
+    </employee>
+    <customer id="C07">
+      <name>Bùi Đức Minh</name>
+      <phone>0868000007</phone>
+      <email>minh.bui@example.com</email>
+      <address>5 Phan Chu Trinh, Hoàn Kiếm, Hà Nội</address>
+    </customer>
+    <paymentMethod>BANK</paymentMethod>
+    <items>
+      <item product_id="10" sku="FS-010-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="3" unitPrice="109.00" lineTotal="327.00">
+        <title>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</title>
+      </item>
+      <item product_id="18" sku="FS-018-pink-1" color="pink" colorName="Hồng" size="M" quantity="3" unitPrice="9.85" lineTotal="29.55">
+        <title>MBJ Women's Solid Short Sleeve Boat Neck V </title>
+      </item>
+    </items>
+    <total>356.55</total>
+  </cart>
+  <cart id="25" code="HD0025" createdAt="2026-10-24T18:45:16" status="shipping">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C12">
+      <name>Lý Thu Trang</name>
+      <phone>0389000012</phone>
+      <email>trang.ly@example.com</email>
+      <address>3 Hai Bà Trưng, Đà Lạt, Lâm Đồng</address>
+    </customer>
+    <paymentMethod>BANK</paymentMethod>
+    <items>
+      <item product_id="5" sku="FS-005-gold-0" color="gold" colorName="Vàng" size="Free size" quantity="1" unitPrice="695.00" lineTotal="695.00">
+        <title>John Hardy Women's Legends Naga Gold &amp; Silver Dragon Station Chain Bracelet</title>
+      </item>
+      <item product_id="6" sku="FS-006-gold-0" color="gold" colorName="Vàng" size="Free size" quantity="1" unitPrice="168.00" lineTotal="168.00">
+        <title>Solid Gold Petite Micropave </title>
+      </item>
+      <item product_id="10" sku="FS-010-silver-0" color="silver" colorName="Bạc" size="Tiêu chuẩn" quantity="3" unitPrice="109.00" lineTotal="327.00">
+        <title>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</title>
+      </item>
+    </items>
+    <total>1190.00</total>
+  </cart>
+  <cart id="26" code="HD0026" createdAt="2026-10-27T10:01:00" status="shipping">
+    <employee id="E02">
+      <name>Trần Minh Anh</name>
+    </employee>
+    <customer id="C03">
+      <name>Lê Hoàng Châu</name>
+      <phone>0356000003</phone>
+      <email>chau.le@example.com</email>
+      <address>8 Trần Phú, Hải Châu, Đà Nẵng</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="2" sku="FS-002-black-0" color="black" colorName="Đen" size="S" quantity="1" unitPrice="22.30" lineTotal="22.30">
+        <title>Mens Casual Premium Slim Fit T-Shirts </title>
+      </item>
+      <item product_id="9" sku="FS-009-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="1" unitPrice="64.00" lineTotal="64.00">
+        <title>WD 2TB Elements Portable External Hard Drive - USB 3.0 </title>
+      </item>
+      <item product_id="17" sku="FS-017-white-2" color="white" colorName="Trắng" size="L" quantity="2" unitPrice="39.99" lineTotal="79.98">
+        <title>Rain Jacket Women Windbreaker Striped Climbing Raincoats</title>
+      </item>
+    </items>
+    <total>166.28</total>
+  </cart>
+  <cart id="27" code="HD0027" createdAt="2026-10-27T13:33:55" status="shipping">
+    <employee id="E01">
+      <name>Thái Khương Anh Đức</name>
+    </employee>
+    <customer id="C05">
+      <name>Võ Ngọc Hân</name>
+      <phone>0833000005</phone>
+      <email>han.vo@example.com</email>
+      <address>27 Hùng Vương, Ninh Kiều, Cần Thơ</address>
+    </customer>
+    <paymentMethod>EWALLET</paymentMethod>
+    <items>
+      <item product_id="12" sku="FS-012-silver-0" color="silver" colorName="Bạc" size="Tiêu chuẩn" quantity="3" unitPrice="114.00" lineTotal="342.00">
+        <title>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</title>
+      </item>
+      <item product_id="16" sku="FS-016-black-2" color="black" colorName="Đen" size="L" quantity="2" unitPrice="29.95" lineTotal="59.90">
+        <title>Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket</title>
+      </item>
+    </items>
+    <total>401.90</total>
+  </cart>
+  <cart id="28" code="HD0028" createdAt="2026-10-29T05:05:14" status="shipping">
+    <employee id="E01">
+      <name>Thái Khương Anh Đức</name>
+    </employee>
+    <customer id="C04">
+      <name>Phạm Gia Duy</name>
+      <phone>0778000004</phone>
+      <email>duy.pham@example.com</email>
+      <address>101 Kim Mã, Ba Đình, Hà Nội</address>
+    </customer>
+    <paymentMethod>EWALLET</paymentMethod>
+    <items>
+      <item product_id="17" sku="FS-017-white-0" color="white" colorName="Trắng" size="S" quantity="1" unitPrice="39.99" lineTotal="39.99">
+        <title>Rain Jacket Women Windbreaker Striped Climbing Raincoats</title>
+      </item>
+    </items>
+    <total>39.99</total>
+  </cart>
+  <cart id="29" code="HD0029" createdAt="2026-11-01T12:20:36" status="processing">
+    <employee id="E01">
+      <name>Thái Khương Anh Đức</name>
+    </employee>
+    <customer id="C06">
+      <name>Đặng Khánh Linh</name>
+      <phone>0909000006</phone>
+      <email>linh.dang@example.com</email>
+      <address>66 Võ Văn Tần, Quận 3, TP. Hồ Chí Minh</address>
+    </customer>
+    <paymentMethod>COD</paymentMethod>
+    <items>
+      <item product_id="20" sku="FS-020-white-0" color="white" colorName="Trắng" size="S" quantity="1" unitPrice="12.99" lineTotal="12.99">
+        <title>DANVOUY Womens T Shirt Casual Cotton Short</title>
+      </item>
+    </items>
+    <total>12.99</total>
+  </cart>
+  <cart id="30" code="HD0030" createdAt="2026-11-03T10:55:29" status="processing">
+    <employee id="E03">
+      <name>Lê Quốc Bảo</name>
+    </employee>
+    <customer id="C06">
+      <name>Đặng Khánh Linh</name>
+      <phone>0909000006</phone>
+      <email>linh.dang@example.com</email>
+      <address>66 Võ Văn Tần, Quận 3, TP. Hồ Chí Minh</address>
+    </customer>
+    <paymentMethod>BANK</paymentMethod>
+    <items>
+      <item product_id="12" sku="FS-012-black-0" color="black" colorName="Đen" size="Tiêu chuẩn" quantity="1" unitPrice="114.00" lineTotal="114.00">
+        <title>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</title>
+      </item>
+    </items>
+    <total>114.00</total>
+  </cart>
+</carts>

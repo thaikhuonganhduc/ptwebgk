@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tạo products.xml | Đức Mart</title>
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/fonts.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="tool-page">
+  <header class="tool-header">
+    <a class="brand" href="../index.html">Đức Mart</a>
+    <span>Công cụ dữ liệu (Câu 1)</span>
+  </header>
+
+  <main class="tool-main">
+    <section>
+      <h1>Tạo products.xml từ Fake Store API</h1>
+      <p>Trang này đọc dữ liệu từ <code>https://fakestoreapi.com/products</code>, dựng cây XML bằng mô hình DOM,
+        bổ sung màu sắc, kích cỡ, tồn kho, rồi lưu thành file <code>products.xml</code>.</p>
+      <div class="tool-actions">
+        <button type="button" class="btn btn-primary" id="fetchBtn">1. Đọc API và dựng XML</button>
+        <button type="button" class="btn" id="saveBtn" disabled>2. Lưu products.xml</button>
+      </div>
+      <p id="toolStatus" role="status"></p>
+    </section>
+
+    <section>
+      <h2>Xem trước XML</h2>
+      <pre id="xmlPreview" class="xml-preview" tabindex="0">Chưa có dữ liệu.</pre>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Sinh viên thực hiện: <strong>Thái Khương Anh Đức</strong> · MSSV: <strong>K234161828</strong></p>
+  </footer>
+
+  <script type="module" src="../js/build-products.js"></script>
+</body>
+</html>

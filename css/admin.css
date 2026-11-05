@@ -1,0 +1,128 @@
+/* Câu 8: giao diện trang quản trị */
+.login-screen { display: grid; flex: 1; place-items: center; padding: 24px 16px; }
+.login-card {
+  display: flex;
+  flex-direction: column;
+  width: min(400px, 100%);
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+}
+.login-card h1 { margin: 10px 0 6px; font-size: 22px; }
+.back-link { margin-top: 14px; color: var(--accent-dark); font-size: 14px; text-align: center; }
+
+.admin-shell { display: flex; flex: 1; flex-direction: column; }
+.admin-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+  padding: 10px 24px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+.admin-nav { display: flex; flex: 1; gap: 4px; min-width: 0; overflow-x: auto; }
+.admin-nav button {
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.admin-nav button:hover { background: var(--paper); }
+.admin-nav button.is-active { background: var(--accent-soft); color: var(--accent-dark); }
+.admin-user { display: flex; align-items: center; gap: 10px; font-weight: 500; }
+
+.admin-main { flex: 1; width: 100%; max-width: 1320px; margin: 0 auto; padding: 24px; }
+.admin-main h1 { font-size: 24px; line-height: 1.25; }
+
+.kpi-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 16px; }
+.kpi-card, .panel { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.kpi-card { padding: 16px; }
+.kpi-label { color: var(--muted); font-size: 13px; }
+.kpi-value { margin-top: 4px; font-size: 28px; font-weight: 700; line-height: 1.2; }
+
+.status-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+
+/* Trạng thái luôn có chữ và ký hiệu, không chỉ phân biệt bằng màu */
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.status-processing { background: #fff4d6; color: #7a5200; }
+.status-shipping { background: #e1edfb; color: #164f91; }
+.status-completed { background: var(--accent-soft); color: var(--accent-dark); }
+.status-cancelled { background: var(--danger-soft); color: var(--danger); }
+
+.chart-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 16px; }
+.panel { position: relative; padding: 16px; }
+.panel h2 { margin-bottom: 12px; font-size: 16px; }
+.chart svg { display: block; width: 100%; height: auto; }
+.chart .bar { fill: var(--accent); }
+.chart .bar-group:hover .bar, .chart .bar-group:focus .bar { fill: var(--accent-dark); }
+.chart .bar-group:focus { outline: none; }
+.chart .hit { fill: transparent; }
+.chart .grid-line { stroke: var(--line); stroke-width: 1; }
+.chart text { fill: var(--muted); font-size: 12px; font-family: inherit; }
+.chart .peak-label { fill: var(--ink); font-weight: 600; }
+.chart-tooltip {
+  position: absolute;
+  z-index: 5;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: var(--ink);
+  color: #fff;
+  font-size: 13px;
+  white-space: nowrap;
+  transform: translate(-50%, -100%);
+  pointer-events: none;
+}
+.chart-table { margin-top: 10px; font-size: 13px; }
+.chart-table summary { color: var(--accent-dark); cursor: pointer; }
+.chart-table table { margin-top: 8px; }
+
+.top-row { padding: 8px 0; }
+.top-row + .top-row { border-top: 1px solid var(--line); }
+.top-row-head { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 6px; font-size: 13px; }
+.top-row-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.top-row-value { flex: none; font-weight: 600; }
+.top-bar { height: 8px; border-radius: 4px; background: var(--accent); }
+
+.filter-row { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 12px; margin-top: 16px; }
+.filter-row .field { margin-bottom: 8px; }
+#orderCount { margin-bottom: 10px; }
+.panel.table-scroll { padding: 0; }
+.low-stock { color: var(--danger); font-weight: 600; }
+
+.order-info { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 20px; margin-bottom: 14px; font-size: 14px; }
+.order-info .label { color: var(--muted); }
+.order-total { display: flex; justify-content: flex-end; gap: 12px; padding: 12px 8px; font-size: 16px; font-weight: 700; }
+.order-status-box { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px; margin-top: 6px; }
+.order-status-box .field { flex: 1; margin: 0; min-width: 180px; }
+
+@media (max-width: 899px) {
+  .kpi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .chart-grid { grid-template-columns: minmax(0, 1fr); }
+  .admin-header { padding: 10px 16px; }
+  .admin-nav { flex-basis: 100%; order: 3; }
+  .admin-user { margin-left: auto; }
+  .admin-main { padding: 16px; }
+}
+
+@media (max-width: 599px) {
+  .filter-row { grid-template-columns: minmax(0, 1fr); }
+  .order-info { grid-template-columns: minmax(0, 1fr); }
+  .kpi-value { font-size: 22px; }
+}
